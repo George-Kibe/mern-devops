@@ -1,14 +1,19 @@
 import FontAwesome from '@expo/vector-icons/FontAwesome';
-import { Link, Tabs } from 'expo-router';
+import { Link, Tabs, useNavigation } from 'expo-router';
 import { Image, Pressable, useColorScheme } from 'react-native';
 
 import Colors from '../../../constants/Colors';
 
 function UserAvatar() {
+  const navigation = useNavigation()
   return(
-    <Image
-      source={{uri: }}
-    />
+    <Pressable onPress={() => navigation.openDrawer()}>
+      <Image
+        style={{width:30, aspectRatio:1, borderRadius:15, marginLeft:20}}
+        source={{uri: "https://buenare-images-bucket.s3.eu-west-1.amazonaws.com/buenare/avatar.jpg"}}
+      />
+    </Pressable>
+    
   )
 }
 
