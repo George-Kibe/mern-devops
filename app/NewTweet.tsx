@@ -1,6 +1,6 @@
-import { StyleSheet, Text, TextInput, View, Image, TouchableOpacity } from 'react-native'
+import { StyleSheet, Text, TextInput, View, Image, TouchableOpacity, SafeAreaView } from 'react-native'
 import React, { useState } from 'react'
-import { Link } from 'expo-router'
+import { Link, useRouter } from 'expo-router'
 
 const user = {
     id: 'u1',
@@ -11,36 +11,40 @@ const user = {
 
 export default function NewTweet() {
   const [text, setText] = useState("")
+  const router = useRouter()
 
   const saveTweet = () => {
-    console.warn("Pressed")
+    console.warn("Sending tweet", text)
+    setText("")
+    router.back()
   }
   return (
-    <View style={styles.container}> 
-      <View style={styles.buttonContainer}>
-        <Link href="../" style={{fontSize:20}}>Cancel</Link>
-        <TouchableOpacity onPress={saveTweet} style={styles.button}>
-          <Text style={styles.buttonText}>Tweet</Text>
-        </TouchableOpacity>
+    <SafeAreaView style={{flex:1, backgroundColor: "white"}}>
+      <View style={styles.container}> 
+        <View style={styles.buttonContainer}>
+            <Link href="../" style={{fontSize:20}}>Cancel</Link>
+            <TouchableOpacity onPress={saveTweet} style={styles.button}>
+            <Text style={styles.buttonText}>Tweet</Text>
+            </TouchableOpacity>
+        </View>
+        <View style={styles.inputContainer}>
+            <Image source={{uri:user.image}} style={styles.image}/>
+            <TextInput
+            placeholder="What's on your mind?"
+            multiline
+            numberOfLines={5}
+            textAlignVertical='top'
+            style={{flex:1}}
+            />
+        </View>
       </View>
-      <View style={styles.inputContainer}>
-        <Image source={{uri:user.image}} style={styles.image}/>
-        <TextInput
-        placeholder="What's on your mind?"
-        multiline
-        numberOfLines={5}
-        textAlignVertical='top'
-        style={{flex:1}}
-        />
-      </View>
-    </View>
+    </SafeAreaView>
   )
 }
 
 const styles = StyleSheet.create({
     container: {
-      padding: 10,
-      backgroundColor: "white",
+      padding: 20,
       flex: 1
     },
     buttonContainer: {
