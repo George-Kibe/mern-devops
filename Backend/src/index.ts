@@ -1,4 +1,7 @@
 import express from 'express';
+import userRoutes from "./routes/userRoutes";
+import tweetRoutes from "./routes/tweetRoutes";
+
 const app = express();
 app.use(express.json());
 
@@ -6,34 +9,10 @@ app.get("/", (req,res) => {
     res.send("Hello from Nodejs Server")
 });
 
-// User CRUD Operations
-// Create a user
-app.post("/user", (req,res) => {
-    res.status(501).json({error: "Not Implemented!"});
-})
-
-// List users
-app.get("/user", (req,res) => {
-    res.status(501).json({error: "Not implemeted"})
-})
-
-// get one user
-app.get("/user/:id", (req,res) => {
-    const {id} = req.params;
-    res.status(501).json({error: `Not implemented: ${id}`})
-})
-
-// update one user
-app.put("/user/:id", (req,res) => {
-    const {id} = req.params;
-    res.status(501).json({error: `Not implemented: ${id}`})
-})
-
-// delete one user
-app.delete("/user/:id", (req,res) => {
-    const {id} = req.params;
-    res.status(501).json({error: `Not implemented: ${id}`})
-})
+// user routes
+app.use("/user", userRoutes)
+// user routes
+app.use("/tweet", tweetRoutes)
 
 const PORT = 5000
 app.listen(PORT, () => {
