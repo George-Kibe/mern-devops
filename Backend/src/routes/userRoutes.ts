@@ -27,21 +27,29 @@ router.post("/", async(req,res) => {
 
 // List users
 router.get("/", async(req,res) => {
-    const allUsers = await prisma.user.findMany();
-    if(allUsers){
-        res.status(200).json(allUsers)
-    }
-    res.status(501).json({error: "Not implemeted"})
+    try {
+        const allUsers = await prisma.user.findMany();
+        if(allUsers){
+            res.status(200).json(allUsers)
+        }
+    } catch (error) {
+        res.status(422).json({error: "Unprocessable Entity"})
+    }    
 });
 
 // get one user
 router.get("/:id", async(req,res) => {
     const {id} = req.params;
-    const user = await prisma.user.findUnique({where: {id: Number(id)}})
-    if(user){
-        res.status(200).json(user)
+    try {
+        const user = await prisma.user.findUnique({where: {id: Number(id)}, include: {tweets: true}})
+        if(user){
+            res.status(200).json(user)
+        }else{
+            res.status(404).json({error: `User of id ${id} Not Found!`})   
+        }
+    } catch (error) {
+        res.status(422).json({error: "Unprocessable Entity!"})   
     }
-    res.status(501).json({error: `Not implemented: ${id}`})
 });
 
 // update one user
@@ -50,12 +58,12 @@ router.put("/:id", async(req,res) => {
     const {name, bio, image} = req.body;
     // console.log(email, name, username)
     try {
-        const newUser = await prisma.user.update({
+        const updatedUser = await prisma.user.update({
             where: {id: Number(id)},
             data: { name, bio, image }
         })
-        if(newUser){
-            res.status(201).json(newUser)
+        if(updatedUser){
+            res.status(201).json(updatedUser)
         }
     } catch (error) {
         res.status(422).json({error: "Unprocessable Entity! Email and Username must be unique"});
