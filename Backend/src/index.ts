@@ -2,6 +2,7 @@ import express from 'express';
 import userRoutes from "./routes/userRoutes";
 import tweetRoutes from "./routes/tweetRoutes";
 import authRoutes from "./routes/authRoutes";
+import { authenticateToken } from './middlewares/authMiddleware';
 
 const app = express();
 app.use(express.json());
@@ -11,9 +12,11 @@ app.get("/", (req,res) => {
 });
 
 // user routes
-app.use("/user", userRoutes)
+// @ts-ignore
+app.use("/user", authenticateToken, userRoutes)
 // user routes
-app.use("/tweet", tweetRoutes)
+// @ts-ignore
+app.use("/tweet", authenticateToken, tweetRoutes)
 // authentication routes
 app.use("/auth", authRoutes)
 

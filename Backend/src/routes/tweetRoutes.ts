@@ -7,18 +7,18 @@ const router = Router();
 // tweet CRUD Operations
 // Create a tweet
 router.post("/", async(req,res) => {
-    const {content, image, userId} = req.body;
-    // console.log(content, image, userId)
+    const {content, image} = req.body;
+    // @ts-ignore
+    const user = req.user;
     try {
         const newTweet = await prisma.tweet.create({
-            data: { content, image, userId }
+            data: { content, image, userId : user.id}
         })
         if(newTweet){
-            res.status(201).json(newTweet)
+            return res.status(201).json(newTweet)
         }
     } catch (error) {
-        res.status(422).json({error: "Unprocessable Entity! Tweet not created!"});
-        return;
+        return res.status(422).json({error: "Unprocessable Entity! Tweet not created!"});
     }
 });
 
@@ -34,10 +34,10 @@ router.get("/", async(req,res) => {
             }}}
         });
         if(allTweets){
-            res.status(200).json(allTweets)
+            return res.status(200).json(allTweets)
         }
     } catch (error) {
-        res.status(422).json({error: "Unprocessable Entity"})
+        return res.status(422).json({error: "Unprocessable Entity"})
     }    
 });
 
@@ -47,12 +47,12 @@ router.get("/:id", async(req,res) => {
     try {
         const tweet = await prisma.tweet.findUnique({where: {id: Number(id)}, include: {user: true}})
         if(tweet){
-            res.status(200).json(tweet)
+            return res.status(200).json(tweet)
         }else{
-            res.status(404).json({error: `Tweet of id ${id} Not Found!`})   
+            return res.status(404).json({error: `Tweet of id ${id} Not Found!`})   
         }
     } catch (error) {
-        res.status(422).json({error: "Unprocessable Entity!"})   
+        return res.status(422).json({error: "Unprocessable Entity!"})   
     }
 });
 
@@ -67,11 +67,10 @@ router.put("/:id", async(req,res) => {
             data: { content, image, userId }
         })
         if(updatedUser){
-            res.status(201).json(updatedUser)
+            return res.status(201).json(updatedUser)
         }
     } catch (error) {
-        res.status(422).json({error: "Unprocessable Entity! Email and Username must be unique"});
-        return;
+        return res.status(422).json({error: "Unprocessable Entity! Email and Username must be unique"})
     }
 });
 
@@ -80,10 +79,9 @@ router.delete("/:id", async(req,res) => {
     const {id} = req.params;
     try {
         await prisma.tweet.delete({where: {id: Number(id)}})
-        res.status(200).json({message: `Tweet id ${id} deleted successfully!`})
+        return res.status(200).json({message: `Tweet id ${id} deleted successfully!`})
     } catch (error) {
-        res.status(404).json({message: `Tweet id ${id} Not Deleted or Not Found!`});
-        return
+        return res.status(404).json({message: `Tweet id ${id} Not Deleted or Not Found!`});
     }  
 });
 

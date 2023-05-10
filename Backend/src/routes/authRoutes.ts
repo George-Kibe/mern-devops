@@ -49,7 +49,7 @@ router.post("/login", async(req, res) => {
                 }
             }
         });
-        console.log(createdToken)
+        // console.log(createdToken)
         // send email to user's email
         
         return res.status(200).json({message: "Token Generated successfully!"})
@@ -103,8 +103,8 @@ router.post("/authenticate", async(req, res) => {
         // Generate JWT Token
         const authToken = generateJWTAuthToken(apiToken.id)
 
-        res.status(200).json({dbEmailToken, authToken})
-
+        res.status(200).json(authToken)
+        // res.status(200).json(dbEmailToken)
     } catch (error) {
         return res.status(404).json({error: "Invalid Email Token Combination"})
     }
