@@ -1,6 +1,7 @@
 import express from 'express';
 import userRoutes from "./routes/userRoutes";
 import tweetRoutes from "./routes/tweetRoutes";
+import authRoutes from "./routes/authRoutes";
 
 const app = express();
 app.use(express.json());
@@ -13,6 +14,8 @@ app.get("/", (req,res) => {
 app.use("/user", userRoutes)
 // user routes
 app.use("/tweet", tweetRoutes)
+// authentication routes
+app.use("/auth", authRoutes)
 
 const PORT = 5000
 app.listen(PORT, () => {
