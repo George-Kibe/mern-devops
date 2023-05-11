@@ -1,10 +1,23 @@
 import { StyleSheet, View, FlatList, Pressable } from 'react-native';
 import Tweet from '../../../components/Tweet';
-import tweets from '../../../assets/data/tweets';
+// import tweets from '../../../assets/data/tweets';
 import { Entypo } from '@expo/vector-icons';
 import { Link } from 'expo-router';
+import { useEffect, useState } from 'react';
+import { listTweets } from '../../../libs/apis/tweets';
 
-export default function TabOneScreen() {
+export default function FeedScreen() {
+  const [tweets, setTweets] = useState([]);
+
+  const fetchTweets = async() => {
+    const data = await listTweets();
+    setTweets(data)
+  }
+
+  useEffect(() => {
+    fetchTweets()
+  }, [])
+  
   return (
     <View style={styles.page}>
       <FlatList

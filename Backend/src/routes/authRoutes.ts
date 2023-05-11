@@ -65,8 +65,7 @@ router.post("/login", async(req, res) => {
 router.post("/authenticate", async(req, res) => {
     const {email, emailToken} = req.body;
     if(!email || !emailToken){
-        res.status(422).json({error: "Unprocessable entity!"})
-        return
+        return res.status(422).json({error: "Unprocessable entity!"});
     }
     const expiration = new Date(
         new Date().getTime() + AUTHENTICATION_EXPIRATION_DAYS *24*60*60*1000
@@ -77,7 +76,7 @@ router.post("/authenticate", async(req, res) => {
             include: { user:true }
         })
         if(!dbEmailToken || !dbEmailToken.isValid){
-            return res.sendStatus(401).json({error: "Unauthorized!"})
+            return res.status(401).json({error: "Invalid or expired Token!"});
         }
         if(dbEmailToken.expiration < new Date()){
             return res.status(401).json({error: "Token is expired!"})
