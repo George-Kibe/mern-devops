@@ -6,8 +6,11 @@ export const listTweets = async() => {
         Authorization: `Bearer ${authToken}`
       }
     })
+    if (response.status === 401){
+        throw new Error("Access is not authorised!")
+      }
     if (response.status !== 200){
-      throw new Error("Error fetching the API!")
+      throw new Error("Error fetching Tweets!")
     }
     const data = await response.json();
     // console.log(data)

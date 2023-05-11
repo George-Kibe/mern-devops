@@ -1,27 +1,38 @@
-import { StyleSheet, View, FlatList, Pressable } from 'react-native';
+import { StyleSheet, View, FlatList, Pressable, Text } from 'react-native';
 import Tweet from '../../../components/Tweet';
 // import tweets from '../../../assets/data/tweets';
 import { Entypo } from '@expo/vector-icons';
 import { Link } from 'expo-router';
 import { useEffect, useState } from 'react';
 import { listTweets } from '../../../libs/apis/tweets';
+import { useQuery } from '@tanstack/react-query';
+import { ActivityIndicator } from 'react-native';
 
 export default function FeedScreen() {
-  const [tweets, setTweets] = useState([]);
+  const {data, isLoading, error} = useQuery({
+    queryKey: ["tweets"],
+    queryFn: listTweets
+  })
+  // const [tweets, setTweets] = useState([]);
 
-  const fetchTweets = async() => {
-    const data = await listTweets();
-    setTweets(data)
-  }
+  // const fetchTweets = async() => {
+  //   const data = await listTweets();
+  //   setTweets(data)
+  // }
 
-  useEffect(() => {
-    fetchTweets()
-  }, [])
-  
+  // useEffect(() => {
+  //   fetchTweets()
+  // }, [])
+  if(isLoading){
+    return <ActivityIndicator />
+  };
+  if (error){
+    return <Text>{error.message}</Text>
+  }  
   return (
     <View style={styles.page}>
       <FlatList
-        data={tweets}
+        data={data}
         renderItem={({item}) => <Tweet tweet={item}/>}
       />
       <Link href={"/NewTweet"} asChild>
