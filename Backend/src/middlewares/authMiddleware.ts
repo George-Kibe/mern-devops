@@ -5,23 +5,19 @@ import { PrismaClient, User } from "@prisma/client";
 const prisma = new PrismaClient();
 
 const JWT_SECRET = process.env.JWT_SECRET || "ANOTHER SUPER SECRET";
-//  console.log("JWT_SECRET: ", JJWT_SECRET)
 
 type AuthRequest = Request & {user: User}
-
 
 export async function authenticateToken(
     req: AuthRequest,
     res: Response,
     next: NextFunction
 ){
-    const authHeader = req.headers["authorization"];
-    if(!authHeader){
-        return res.status(401)
-    }
-    const jwtToken = authHeader.split(' ')[1];
-    if(!jwtToken){
-        return res.status(401)
+    // Authentication
+    const authHeader = req.headers['authorization'];
+    const jwtToken = authHeader?.split(' ')[1];
+    if (!jwtToken) {
+        return res.sendStatus(401);
     }
     // console.log(jwtToken);
     // decode the jwt token 

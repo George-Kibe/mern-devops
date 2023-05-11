@@ -1,6 +1,8 @@
 import {SESClient, SendEmailCommand} from "@aws-sdk/client-ses";
+require("dotenv").config();
 
 const ses = new SESClient({});
+// console.log(process.env.AWS_SECRET_ACCESS_KEY)
 
 const createSendEmailCommand = (toAddress: string, fromAddress: string, message:string) => {
     return new SendEmailCommand({
@@ -37,4 +39,5 @@ export async function sendEmailToken(email: string, token:string){
 }
 
 
-sendEmailToken("georgekibew@gmail.com", "456472")
+// Testing sending emails
+// sendEmailToken("georgekibew@gmail.com", "456472")

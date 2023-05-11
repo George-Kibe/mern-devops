@@ -1,6 +1,7 @@
 import { Router } from "express";
 import { PrismaClient } from "@prisma/client";
 import jwt from "jsonwebtoken";
+import { sendEmailToken } from "../services/emailService";
 
 const prisma = new PrismaClient();
 const router = Router();
@@ -51,7 +52,7 @@ router.post("/login", async(req, res) => {
         });
         // console.log(createdToken)
         // send email to user's email
-        
+        await sendEmailToken(email, emailToken)
         return res.status(200).json({message: "Token Generated successfully!"})
     } catch (error) {
         return res.status(400).json({error: "Could not start authentication. Please try Again!"})
