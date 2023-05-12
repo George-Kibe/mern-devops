@@ -16,3 +16,19 @@ export const listTweets = async() => {
     // console.log(data)
     return data
 }
+
+export const getTweet = async(id:string) => {
+    const response = await fetch(`${API_URL}/tweet/${id}`, {
+      headers: {
+        Authorization: `Bearer ${authToken}`
+      }
+    })
+    if (response.status === 401){
+        throw new Error("Access is not authorised!")
+      }
+    if (response.status !== 200){
+      throw new Error("Error fetching Tweet!")
+    }
+    const data = await response.json();
+    return data
+}

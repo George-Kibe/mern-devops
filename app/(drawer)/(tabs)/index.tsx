@@ -34,6 +34,7 @@ export default function FeedScreen() {
       <FlatList
         data={data}
         renderItem={({item}) => <Tweet tweet={item}/>}
+        inverted
       />
       <Link href={"/NewTweet"} asChild>
         <Entypo name="plus" size={25} color="black" style={styles.floatingButton} />
