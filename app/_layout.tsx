@@ -4,6 +4,8 @@ import { useFonts } from 'expo-font';
 import { SplashScreen, Stack } from 'expo-router';
 import { useEffect } from 'react';
 import { useColorScheme } from 'react-native';
+import AuthContextProvider from '../context/AuthContext';
+import TweetsApiContextProvider from '../libs/apis/tweets';
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 
 const client = new QueryClient()
@@ -42,17 +44,22 @@ function RootLayoutNav() {
   const colorScheme = useColorScheme();
 
   return (
-    <QueryClientProvider client={client}>
-      <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-        <Stack>
-          <Stack.Screen name="(drawer)" options={{ headerShown: false }} />    
-          <Stack.Screen name="(auth)/SignIn" options={{ headerShown: false }} />
-          <Stack.Screen name="(auth)/authenticate" options={{ title: "Confirm" }} />
-          <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
-          <Stack.Screen name="tweet/[id]" options={{ title: 'Tweet' }} />
-          <Stack.Screen name="NewTweet" options={{ title: 'New Tweet', headerShown: false }} />
-        </Stack>
-      </ThemeProvider>
-    </QueryClientProvider>
+    <AuthContextProvider>
+      <TweetsApiContextProvider>
+        <QueryClientProvider client={client}>
+          <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+            <Stack>
+              <Stack.Screen name="(drawer)" options={{ headerShown: false }} />    
+              <Stack.Screen name="(auth)/SignIn" options={{ headerShown: false }} />
+              <Stack.Screen name="(auth)/authenticate" options={{ title: "Confirm" }} />
+              <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
+              <Stack.Screen name="tweet/[id]" options={{ title: 'Tweet' }} />
+              <Stack.Screen name="NewTweet" options={{ title: 'New Tweet', headerShown: false }} />
+            </Stack>
+          </ThemeProvider>
+        </QueryClientProvider>
+      </TweetsApiContextProvider>
+    </AuthContextProvider>
+    
   );
 }

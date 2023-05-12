@@ -2,7 +2,7 @@ import { StyleSheet, Text, TextInput, View, Image, TouchableOpacity, SafeAreaVie
 import React, { useState } from 'react'
 import { Link, useRouter } from 'expo-router'
 import { useMutation, useQueryClient } from '@tanstack/react-query'
-import { createTweet } from '../libs/apis/tweets'
+import { useTweetsAPI } from '../libs/apis/tweets'
 
 const user = {
     id: 'u1',
@@ -12,8 +12,9 @@ const user = {
   }
 
 export default function NewTweet() {
-  const [text, setText] = useState("")
-  const router = useRouter()
+  const [text, setText] = useState("");
+  const router = useRouter();
+  const {createTweet}: any = useTweetsAPI();
 
   const queryClient = useQueryClient()
   const {mutateAsync, isLoading, isError, error, isSuccess} = useMutation({
@@ -27,6 +28,7 @@ export default function NewTweet() {
   });
 
   const saveTweet = async() => {
+    if(text.length < 5 ){return}
     // console.warn("Sending tweet", text)
     try {
       await mutateAsync({content: text})

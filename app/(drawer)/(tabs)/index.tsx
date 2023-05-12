@@ -4,11 +4,12 @@ import Tweet from '../../../components/Tweet';
 import { Entypo } from '@expo/vector-icons';
 import { Link } from 'expo-router';
 import { useEffect, useState } from 'react';
-import { listTweets } from '../../../libs/apis/tweets';
+import { useTweetsAPI } from '../../../libs/apis/tweets';
 import { useQuery } from '@tanstack/react-query';
 import { ActivityIndicator } from 'react-native';
 
 export default function FeedScreen() {
+  const {listTweets} = useTweetsAPI()
   const {data, isLoading, error} = useQuery({
     queryKey: ["tweets"],
     queryFn: listTweets

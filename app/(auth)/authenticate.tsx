@@ -2,12 +2,14 @@ import { StyleSheet, Text, View, SafeAreaView, TextInput, TouchableOpacity } fro
 import React, { useState } from 'react'
 import { useRouter, useSearchParams } from 'expo-router';
 import { authenticate } from '../../libs/apis/auth';
+import { useAuthentication } from '../../context/AuthContext';
 
 const Authenticate = () => {
   const [code, setCode] = useState("");
   const [error, setError] = useState("");
   const { email } = useSearchParams();
   const router = useRouter();
+  const { updateAuthToken } = useAuthentication();
 
   const onAuthenticate = async() => {
     if (code.length !== 6){
@@ -18,12 +20,13 @@ const Authenticate = () => {
     }
     try {
       const response = await authenticate({email, emailToken:code});
-      console.log(response)
+      console.log("Response: ",response)
+      await updateAuthToken(response)
+      // router.replace("/(drawer)")
     } catch (error: any) {
       setError(error.message)
     }
     console.log(email, code.length)
-    // router.push("/(drawer)")
   }
   return (
     <SafeAreaView style={styles.container}>

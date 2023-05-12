@@ -4,10 +4,11 @@ import Tweet from '../../components/Tweet'
 import tweets from '../../assets/data/tweets'
 import { useSearchParams } from 'expo-router'
 import { useQuery } from '@tanstack/react-query'
-import { getTweet } from '../../libs/apis/tweets'
+import { useTweetsAPI } from '../../libs/apis/tweets'
 
 export default function TweetScreen() {
   const {id} = useSearchParams();
+  const {getTweet}= useTweetsAPI();
   const {data:tweet, isLoading, error} = useQuery({
     queryKey: ["tweet", id],
     queryFn: () => getTweet(id as string),
