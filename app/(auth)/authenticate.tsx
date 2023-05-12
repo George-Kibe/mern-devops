@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, SafeAreaView, TextInput, TouchableOpacity } from 'react-native'
 import React, { useState } from 'react'
 import { useRouter, useSearchParams } from 'expo-router';
+import { authenticate } from '../../libs/apis/auth';
 
 const Authenticate = () => {
   const [code, setCode] = useState("");
@@ -8,9 +9,18 @@ const Authenticate = () => {
   const { email } = useSearchParams();
   const router = useRouter();
 
-  const onAuthenticate = () => {
+  const onAuthenticate = async() => {
     if (code.length !== 6){
       setError("Code is Invalid! Check for Missing or Excess numbers!")
+    }
+    if (typeof email !== "string"){
+      return;
+    }
+    try {
+      const response = await authenticate({email, emailToken:code});
+      console.log(response)
+    } catch (error: any) {
+      setError(error.message)
     }
     console.log(email, code.length)
     // router.push("/(drawer)")

@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, SafeAreaView, TextInput, TouchableOpacity } from 'react-native'
 import React, { useState } from 'react'
 import { useRouter } from 'expo-router';
+import { login } from '../../libs/apis/auth';
 
 const SignIn = () => {
   const [email, setEmail] = useState("");
@@ -12,13 +13,18 @@ const SignIn = () => {
     const re = /\S+@\S+\.\S+/;
     return re.test(emailAddress);
   }
-  const onSignIn = () => {
+  const onSignIn = async() => {
     const isValid = validateEmail(email)
     if(!isValid){
       setError("Email address is not valid");
       return;
     };
-    router.push({pathname: "/authenticate", params: { email }})
+    try {
+      await login({email});
+      router.push({pathname: "/authenticate", params: { email }})
+    } catch (error: any) {
+      setError(error.message)
+    }    
   }
   return (
     <SafeAreaView style={styles.container}>
