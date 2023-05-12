@@ -17,7 +17,7 @@ const Tweet = ({tweet}: TweetProps) => {
         <View style={styles.tweetContainer}>
           <View style={{flexDirection: "row"}}>
             <Text style={styles.name}>{tweet.user.name}</Text>
-            <Text style={styles.username}>@{tweet.user.username} •2mins</Text>
+            <Text style={styles.username}>@{tweet.user.username} •{tweet.createdAt} </Text>
             <Entypo name="dots-three-horizontal" size={20} color="gray" style={{marginLeft:"auto"}} />
           </View>
           <Text style={styles.content}>{tweet.content}</Text>

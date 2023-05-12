@@ -12,7 +12,8 @@ router.post("/", async(req,res) => {
     const user = req.user;
     try {
         const newTweet = await prisma.tweet.create({
-            data: { content, image, userId : user.id}
+            data: { content, image, userId : user.id},
+            include: {user: true},
         })
         if(newTweet){
             return res.status(201).json(newTweet)

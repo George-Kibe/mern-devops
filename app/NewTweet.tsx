@@ -1,6 +1,8 @@
-import { StyleSheet, Text, TextInput, View, Image, TouchableOpacity, SafeAreaView } from 'react-native'
+import { StyleSheet, Text, TextInput, View, Image, TouchableOpacity, SafeAreaView, ActivityIndicator } from 'react-native'
 import React, { useState } from 'react'
 import { Link, useRouter } from 'expo-router'
+import { useMutation, useQueryClient } from '@tanstack/react-query'
+import { createTweet } from '../libs/apis/tweets'
 
 const user = {
     id: 'u1',
@@ -13,30 +15,51 @@ export default function NewTweet() {
   const [text, setText] = useState("")
   const router = useRouter()
 
-  const saveTweet = () => {
-    console.warn("Sending tweet", text)
-    setText("")
-    router.back()
+  const queryClient = useQueryClient()
+  const {mutateAsync, isLoading, isError, error, isSuccess} = useMutation({
+    mutationFn: createTweet,
+    onSuccess: (data) => {
+      // queryClient.invalidateQueries({queryKey: ["tweets"]})
+      queryClient.setQueriesData(['tweets'], (existingTweets) => {
+        return [data, ...existingTweets]
+    })
+    }
+  });
+
+  const saveTweet = async() => {
+    // console.warn("Sending tweet", text)
+    try {
+      await mutateAsync({content: text})
+      setText("")
+      router.back()
+    } catch (error) {
+      console.log(error)
+    }    
   }
+
   return (
     <SafeAreaView style={{flex:1, backgroundColor: "white"}}>
       <View style={styles.container}> 
         <View style={styles.buttonContainer}>
             <Link href="../" style={{fontSize:20}}>Cancel</Link>
+            {isLoading && <ActivityIndicator />}
             <TouchableOpacity onPress={saveTweet} style={styles.button}>
-            <Text style={styles.buttonText}>Tweet</Text>
+              <Text style={styles.buttonText}>Tweet</Text>
             </TouchableOpacity>
         </View>
         <View style={styles.inputContainer}>
             <Image source={{uri:user.image}} style={styles.image}/>
             <TextInput
-            placeholder="What's on your mind?"
-            multiline
-            numberOfLines={5}
-            textAlignVertical='top'
-            style={{flex:1}}
+              placeholder="What's on your mind?"
+              multiline
+              numberOfLines={5}
+              textAlignVertical='top'
+              style={{flex:1}}
+              value={text}              onChangeText={tx => setText(tx)}
             />
         </View>
+
+        {isError && <Text>Error: {error.message}</Text>}
       </View>
     </SafeAreaView>
   )
