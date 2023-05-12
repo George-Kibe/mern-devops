@@ -45,7 +45,8 @@ function RootLayoutNav() {
     <QueryClientProvider client={client}>
       <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
         <Stack>
-          <Stack.Screen name="(drawer)" options={{ headerShown: false }} />
+          <Stack.Screen name="(drawer)" options={{ headerShown: false }} />    
+          {/* <Stack.Screen name="(auth)/SignIn" options={{ headerShown: false }} />         */}
           <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
           <Stack.Screen name="tweet/[id]" options={{ title: 'Tweet' }} />
           <Stack.Screen name="NewTweet" options={{ title: 'New Tweet', headerShown: false }} />

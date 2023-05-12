@@ -19,10 +19,10 @@ export default function NewTweet() {
   const {mutateAsync, isLoading, isError, error, isSuccess} = useMutation({
     mutationFn: createTweet,
     onSuccess: (data) => {
-      // queryClient.invalidateQueries({queryKey: ["tweets"]})
-      queryClient.setQueriesData(['tweets'], (existingTweets) => {
-        return [data, ...existingTweets]
-    })
+      queryClient.invalidateQueries({queryKey: ["tweets"]})
+      // queryClient.setQueriesData(['tweets'], (existingTweets) => {
+      //   return [data, ...existingTweets]
+      // })
     }
   });
 
