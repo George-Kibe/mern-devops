@@ -7,7 +7,7 @@ const prisma = new PrismaClient();
 const router = Router();
 
 const EMAIL_TOKEN_EXPIRATION_MINUTES = 10;
-const AUTHENTICATION_EXPIRATION_DAYS = 10;
+const AUTHENTICATION_EXPIRATION_DAYS = 365;
 const JWT_SECRET = "SUPER SECRET";
 
 // function to generate random 6 digit number as email token

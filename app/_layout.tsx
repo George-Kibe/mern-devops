@@ -7,6 +7,7 @@ import { useColorScheme } from 'react-native';
 import AuthContextProvider from '../context/AuthContext';
 import TweetsApiContextProvider from '../libs/apis/tweets';
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
+import Toast from 'react-native-toast-message';
 
 const client = new QueryClient()
 
@@ -56,6 +57,7 @@ function RootLayoutNav() {
               <Stack.Screen name="tweet/[id]" options={{ title: 'Tweet' }} />
               <Stack.Screen name="NewTweet" options={{ title: 'New Tweet', headerShown: false }} />
             </Stack>
+            <Toast/>
           </ThemeProvider>
         </QueryClientProvider>
       </TweetsApiContextProvider>

@@ -3,6 +3,9 @@ import React, { useState } from 'react'
 import { Link, useRouter } from 'expo-router'
 import { useMutation, useQueryClient } from '@tanstack/react-query'
 import { useTweetsAPI } from '../libs/apis/tweets'
+import uploadImageToS3 from '../permissions/UploadImageTos3'
+import Toast from 'react-native-toast-message';
+import { launchImageLibrary } from 'react-native-image-picker';
 
 const user = {
     id: 'u1',
@@ -13,6 +16,7 @@ const user = {
 
 export default function NewTweet() {
   const [text, setText] = useState("");
+  const [imageUrl, setImageUrl] = useState("")
   const router = useRouter();
   const {createTweet}: any = useTweetsAPI();
 
@@ -26,6 +30,37 @@ export default function NewTweet() {
       // })
     }
   });
+
+  const imageOptions = {
+    saveToPhotos: true,
+    mediaType: "photo",
+    selectionLimit: 1,
+  }
+  const uploadTweetImage = async() => {
+    try {
+      const result = await launchImageLibrary(imageOptions);
+      const {assets} = result;
+      console.log("Assets: ", assets)
+      Toast.show({
+        type: 'success',
+        text1: 'Image is being uploaded',
+        text2: 'Kindly wait as Image is uploaded😃'
+      }); 
+      const {uri:url, fileName, type: mimetype} = assets[0]
+      const parts = fileName.split(".");
+      const ext = parts[parts.length-1];
+      const uploadUrl = await uploadImageToS3(url, mimetype, ext);
+      if(uploadUrl){
+        Toast.show({
+          type: 'success',
+          text1: 'Profile Image uploaded successfully',
+          text2: 'Profile Image uploaded successfully. You can now proceed😃'
+        });
+      }
+    }catch(error){
+      console.log(error)
+    }
+  }
 
   const saveTweet = async() => {
     if(text.length < 5 ){return}

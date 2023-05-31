@@ -5,7 +5,7 @@ import { useAuthentication } from "../../context/AuthContext";
 const TweetsApiContext = createContext({});
 
 const TweetsApiContextProvider = ({children}: PropsWithChildren) => {
-  const {authToken} = useAuthentication()
+  const {authToken, updateAuthToken} = useAuthentication()
   // console.log("Auth token inside API Provider: ", authToken)
   const listTweets = async() => {
     if(!authToken){return};
@@ -15,7 +15,8 @@ const TweetsApiContextProvider = ({children}: PropsWithChildren) => {
       }
     })
     if (response.status === 401){
-        throw new Error("Access is not authorised!")
+      updateAuthToken("")
+      throw new Error("Access is not authorised!")  
       }
     if (response.status !== 200){
       throw new Error("Error fetching Tweets!")
@@ -33,6 +34,7 @@ const getTweet = async(id:string) => {
     }
   })
   if (response.status === 401){
+      updateAuthToken("")
       throw new Error("Access is not authorised!")
     }
   if (response.status !== 200){
@@ -53,6 +55,7 @@ const createTweet = async(data: {content: string}) => {
     body: JSON.stringify(data)
   })
   if (response.status === 401){
+      updateAuthToken("")
       throw new Error("Access is not authorised!")
     }
   if (response.status !== 201){
