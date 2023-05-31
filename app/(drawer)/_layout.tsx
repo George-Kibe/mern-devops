@@ -27,6 +27,7 @@ export default function DrawerLayout() {
           <Drawer.Screen name="(tabs)" options={{headerShown: false, title:"Home"}} />
           <Drawer.Screen name="Bookmarks" options={{headerShown: false, title:"Bookmarks"}} />
           <Drawer.Screen name="TwitterBlue" options={{headerShown: false, title:"Twitter Blue"}} />
+          <Drawer.Screen name="Profile" options={{headerShown: false, title:"Profile"}} />
         </Drawer>
     )
     

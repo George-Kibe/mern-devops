@@ -5,7 +5,11 @@ import { useMutation, useQueryClient } from '@tanstack/react-query'
 import { useTweetsAPI } from '../libs/apis/tweets'
 import uploadImageToS3 from '../permissions/UploadImageTos3'
 import Toast from 'react-native-toast-message';
+import { Feather } from '@expo/vector-icons';
 import { launchImageLibrary } from 'react-native-image-picker';
+// import { usePermissions } from 'expo-permissions';
+import * as Permissions from 'expo-permissions';
+import * as ImagePicker from 'expo-image-picker';
 
 const user = {
     id: 'u1',
@@ -38,6 +42,11 @@ export default function NewTweet() {
   }
   const uploadTweetImage = async() => {
     try {
+      const { status } = await usePermissions(usePermissions.MEDIA_LIBRARY);
+      if (status !== 'granted') {
+        // Permission denied, you can access the gallery.
+        console.log("Gallery access denied!")
+      }
       const result = await launchImageLibrary(imageOptions);
       const {assets} = result;
       console.log("Assets: ", assets)
@@ -92,12 +101,22 @@ export default function NewTweet() {
               numberOfLines={5}
               textAlignVertical='top'
               style={{flex:1}}
-              value={text}              onChangeText={tx => setText(tx)}
+              value={text}
+              onChangeText={tx => setText(tx)}
             />
         </View>
-
         {isError && <Text>Error: {error.message}</Text>}
+        {/* <View>
+          <Text> Add image</Text>
+          <TouchableOpacity onPress={uploadTweetImage}>
+            <Feather name="image" size={24} color="black" />
+          </TouchableOpacity>
+        </View>
+        {
+          !imageUrl && <Image source={{uri:user.image}} style={styles.image}/>
+        } */}
       </View>
+     
     </SafeAreaView>
   )
 }
