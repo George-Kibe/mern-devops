@@ -15,7 +15,7 @@ const user = {
     id: 'u1',
     username: 'Vadim Savin',
     name: 'Vadim',
-    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.png',
+    image: 'https://buenare-images-bucket.s3.amazonaws.com/Screenshot+from+2023-05-03+15-24-50.png',
   }
 
 export default function NewTweet() {
@@ -149,6 +149,7 @@ const styles = StyleSheet.create({
     image: {
       width: 50,
       height: 50,
+      borderRadius:25,
       marginRight: 10
     }
 })
