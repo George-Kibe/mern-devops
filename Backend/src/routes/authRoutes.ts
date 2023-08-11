@@ -28,6 +28,7 @@ function generateJWTAuthToken(tokenId: number): string {
 
 router.post("/login", async(req, res) => {
     const {email} = req.body;
+    console.log("Email: ", email)
     if(!email){
         return res.status(422).json({error: "Unprocessable entity!"})
     }
@@ -55,6 +56,7 @@ router.post("/login", async(req, res) => {
         await sendEmailToken(email, emailToken)
         return res.status(200).json({message: "Token Generated successfully!"})
     } catch (error) {
+        console.log("Error: ", error)
         return res.status(400).json({error: "Could not start authentication. Please try Again!"})
     }
     
@@ -64,6 +66,7 @@ router.post("/login", async(req, res) => {
 // Generate a long-lived JWT Token
 router.post("/authenticate", async(req, res) => {
     const {email, emailToken} = req.body;
+    console.log(req.body)
     if(!email || !emailToken){
         return res.status(422).json({error: "Unprocessable entity!"});
     }

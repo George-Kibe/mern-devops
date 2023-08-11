@@ -23,6 +23,7 @@ const SignIn = () => {
       await login({email});
       router.push({pathname: "/authenticate", params: { email }})
     } catch (error: any) {
+      console.log("Sign in Error: ",error)
       setError(error.message)
     }    
   }

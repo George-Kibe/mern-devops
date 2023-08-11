@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Link, useRouter } from 'expo-router'
 import { useMutation, useQueryClient } from '@tanstack/react-query'
 import { useTweetsAPI } from '../libs/apis/tweets'
-import uploadImageToS3 from '../permissions/UploadImageTos3'
+import {uploadImageToS3} from '../permissions/uploadImageToS3'
 import Toast from 'react-native-toast-message';
 import { Feather } from '@expo/vector-icons';
 import { launchImageLibrary } from 'react-native-image-picker';
