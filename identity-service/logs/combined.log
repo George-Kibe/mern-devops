@@ -1,0 +1,105 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on port 3001","service":"identity-service","timestamp":"2025-10-08T14:56:05.800Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T14:56:05.817Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on port htt3001","service":"identity-service","timestamp":"2025-10-08T15:14:01.043Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:14:01.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on port http://3001","service":"identity-service","timestamp":"2025-10-08T15:14:02.933Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:14:02.951Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on port http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:14:06.896Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:14:06.919Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:33:36.880Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:33:36.904Z"}
+{"0":"m","1":"o","10":"r","11":"o","12":"o","13":"t","14":":","15":"S","16":"U","17":"0","18":"C","19":"b","2":"n","20":"f","21":"Z","22":"F","23":"r","24":"F","25":"p","26":"4","27":"m","28":"G","29":"o","3":"g","30":"c","31":"c","32":"n","33":"X","34":"0","35":"g","36":"@","37":"l","38":"o","39":"c","4":"o","40":"a","41":"l","42":"h","43":"o","44":"s","45":"t","46":":","47":"2","48":"7","49":"0","5":"d","50":"1","51":"7","52":"/","53":"i","54":"d","55":"e","56":"n","57":"t","58":"i","59":"t","6":"b","60":"y","61":"S","62":"e","63":"r","64":"v","65":"i","66":"c","67":"e","68":"M","69":"s","7":":","70":"D","71":"b","72":"?","73":"a","74":"u","75":"t","76":"h","77":"S","78":"o","79":"u","8":"/","80":"r","81":"c","82":"e","83":"=","84":"a","85":"d","86":"m","87":"i","88":"n","9":"/","level":"\u001b[32minfo\u001b[39m","message":"\tMONGODB_URI","service":"identity-service","timestamp":"2025-10-08T15:33:59.661Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:33:59.681Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:33:59.704Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:34:23.719Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:34:23.738Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:34:30.130Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:34:30.149Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:43:56.275Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:43:56.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:45:00.005Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:45:00.022Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:45:22.262Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:45:22.282Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:45:23.316Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:45:23.346Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:45:24.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:45:24.769Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:45:28.093Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:45:28.115Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:45:53.243Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:45:53.261Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:46:00.439Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:46:00.458Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:46:23.573Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:46:23.591Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:46:32.598Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:46:32.617Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:47:06.021Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:47:06.040Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:47:15.300Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:47:15.318Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:47:17.920Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:47:17.938Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:47:20.493Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:47:20.510Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:47:42.839Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:47:42.857Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:48:02.013Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:48:02.028Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:48:45.897Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:48:45.916Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:48:50.079Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:48:50.094Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:49:25.672Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:49:25.691Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:49:39.497Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:49:39.515Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:49:55.792Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:49:55.812Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:49:59.590Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:49:59.609Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:50:06.927Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:50:06.943Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:50:08.474Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:50:08.490Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:50:15.647Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:50:15.667Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:50:17.619Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:50:17.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:50:21.045Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:50:21.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:50:23.987Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:50:24.005Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:50:26.027Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:50:26.043Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:52:13.148Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:52:13.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:52:43.168Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:52:43.192Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:53:26.104Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:53:26.121Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:53:29.484Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:53:29.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:58:10.261Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:58:10.280Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:58:12.571Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:58:12.594Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:58:14.177Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:58:14.198Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:58:15.417Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:58:15.437Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:58:44.007Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:58:44.025Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:58:49.139Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:58:49.159Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T15:58:58.847Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T15:58:58.867Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T16:00:10.401Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T16:00:10.421Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T16:06:33.562Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T16:06:33.616Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T16:07:31.072Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T16:07:31.098Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T16:09:22.778Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T16:09:22.800Z"}
