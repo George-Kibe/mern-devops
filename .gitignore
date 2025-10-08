@@ -17,4 +17,5 @@ permissions
 .metro-health-check*
 migrations
 .env
+.env.prod
 *.db
