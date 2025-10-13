@@ -1,0 +1,251 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:24:27.285Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on port http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:24:27.287Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on port undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:24:27.287Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on port undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:24:27.287Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on port undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:24:27.287Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:24:27.287Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:25:05.870Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on port http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:25:05.872Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on port undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:05.872Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on port undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:05.872Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:05.872Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:25:05.872Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:25:08.393Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on port http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:25:08.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on port undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:08.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:08.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:08.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:25:08.396Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:25:10.523Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on port http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:25:10.524Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:10.525Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:10.525Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:10.525Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:25:10.525Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:25:12.487Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:25:12.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:12.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:12.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:12.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:25:12.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:25:50.252Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:25:50.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:50.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:50.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:50.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:25:50.255Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:25:59.878Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:25:59.879Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:59.879Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:59.880Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:25:59.880Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:25:59.880Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:26:17.225Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:26:17.227Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:17.227Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:17.227Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:17.227Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:26:17.227Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:26:18.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:26:18.955Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:18.955Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:18.955Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:18.955Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:26:18.955Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:26:20.141Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:26:20.143Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:20.143Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:20.143Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:20.143Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:26:20.143Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:26:21.268Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:26:21.273Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:21.274Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:21.274Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:21.274Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:26:21.275Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:26:24.744Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:26:24.746Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:24.746Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:24.747Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:24.747Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:26:24.747Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:26:29.934Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:26:29.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:29.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:29.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:29.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:26:29.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:26:32.721Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:26:32.723Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:32.723Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:32.723Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:32.724Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:26:32.724Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:26:42.717Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:26:42.718Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:42.718Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:42.718Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:42.719Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:26:42.719Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:26:55.946Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:26:55.948Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:55.948Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:55.948Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:26:55.948Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:26:55.949Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:27:41.426Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:27:41.428Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:27:41.428Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:27:41.428Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:27:41.428Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:27:41.429Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:28:30.130Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:28:30.131Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:28:30.131Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:28:30.132Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:28:30.132Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:28:30.132Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:28:35.849Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:28:35.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:28:35.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:28:35.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:28:35.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:28:35.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:28:39.726Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:28:39.727Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:28:39.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:28:39.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:28:39.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:28:39.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:29:11.823Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:29:11.825Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:29:11.825Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:29:11.825Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:29:11.826Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:29:11.826Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:29:35.497Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:29:35.499Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:29:35.499Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:29:35.499Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:29:35.499Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:29:35.499Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:37:38.420Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:37:38.422Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:37:38.422Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:37:38.422Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:37:38.422Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:37:38.422Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:39:09.158Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:39:09.159Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:39:09.159Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:39:09.160Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:39:09.160Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:39:09.160Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:47:30.895Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:47:30.897Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:47:30.897Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:47:30.898Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:47:30.898Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:47:30.898Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:47:35.080Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:47:35.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:47:35.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:47:35.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:47:35.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:47:35.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:47:51.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:47:51.295Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:47:51.295Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:47:51.295Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:47:51.296Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:47:51.296Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:49:29.951Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:49:29.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:49:29.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:49:29.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:49:29.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:49:29.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:49:33.185Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:49:33.187Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:49:33.187Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:49:33.187Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:49:33.187Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:49:33.187Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:49:36.316Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:49:36.317Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:49:36.317Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:49:36.318Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:49:36.318Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:49:36.318Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:50:03.291Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:50:03.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:50:03.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:50:03.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:50:03.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:50:03.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:50:05.348Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:50:05.350Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-13T15:50:05.350Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:50:05.350Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:50:05.350Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:50:05.350Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:50:08.245Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:50:08.246Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-13T15:50:08.247Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:50:08.247Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:50:08.247Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:50:08.247Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:50:10.414Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:50:10.416Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-13T15:50:10.416Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:50:10.416Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:50:10.417Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:50:10.417Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:50:12.231Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:50:12.232Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-13T15:50:12.233Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:50:12.233Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:50:12.233Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:50:12.233Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:50:22.368Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:50:22.369Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-13T15:50:22.370Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-13T15:50:22.370Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:50:22.370Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:50:22.370Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:50:30.033Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:50:30.035Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-13T15:50:30.035Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-13T15:50:30.035Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on undefined","service":"API-Gateway service","timestamp":"2025-10-13T15:50:30.035Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:50:30.036Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-13T15:50:32.438Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-13T15:50:32.439Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-13T15:50:32.440Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-13T15:50:32.440Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on http://localhost:3004","service":"API-Gateway service","timestamp":"2025-10-13T15:50:32.440Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-13T15:50:32.440Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1i/auth/register","service":"API-Gateway service","timestamp":"2025-10-13T15:52:32.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-13T15:52:32.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/auth/register","service":"API-Gateway service","timestamp":"2025-10-13T15:52:38.126Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-13T15:52:38.126Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Identity service: 400","service":"API-Gateway service","timestamp":"2025-10-13T15:52:38.168Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/auth/login","service":"API-Gateway service","timestamp":"2025-10-13T15:57:29.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-13T15:57:29.315Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Identity service: 500","service":"API-Gateway service","timestamp":"2025-10-13T15:57:29.333Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/auth/login","service":"API-Gateway service","timestamp":"2025-10-13T15:58:42.220Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-13T15:58:42.220Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Identity service: 200","service":"API-Gateway service","timestamp":"2025-10-13T15:58:42.329Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/auth/login","service":"API-Gateway service","timestamp":"2025-10-13T15:59:56.959Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-13T15:59:56.960Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Identity service: 200","service":"API-Gateway service","timestamp":"2025-10-13T15:59:57.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/auth/login","service":"API-Gateway service","timestamp":"2025-10-13T16:04:12.530Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-13T16:04:12.531Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Identity service: 200","service":"API-Gateway service","timestamp":"2025-10-13T16:04:12.591Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/auth/login","service":"API-Gateway service","timestamp":"2025-10-13T16:16:43.201Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-13T16:16:43.201Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Identity service: 200","service":"API-Gateway service","timestamp":"2025-10-13T16:16:43.301Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/auth/login","service":"API-Gateway service","timestamp":"2025-10-13T16:16:53.566Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-13T16:16:53.567Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Identity service: 200","service":"API-Gateway service","timestamp":"2025-10-13T16:16:53.629Z"}

@@ -1,5 +1,5 @@
 const express = require('express');
-const { registerUser } = require('../controllers/identity-controller');
+const { registerUser, loginUser, refreshUserToken, logoutUser } = require('../controllers/identity-controller');
 
 const router = express.Router();
 
@@ -7,12 +7,12 @@ const router = express.Router();
 router.post('/register', registerUser);
 
 // Login route
-// router.post('/login', loginUser);
+router.post('/login', loginUser);
 
 // Refresh token route
-// router.post('/refresh-token', refreshToken);
+router.post('/refresh-token', refreshUserToken);
 
 // Logout route
-// router.post('/logout', logoutUser);
+router.post('/logout', logoutUser);
 
 module.exports = router;    

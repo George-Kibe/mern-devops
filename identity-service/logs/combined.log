@@ -103,3 +103,160 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T16:07:31.098Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-08T16:09:22.778Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-08T16:09:22.800Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:06:53.873Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:06:53.904Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /auth/register","service":"identity-service","timestamp":"2025-10-13T15:11:11.972Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"identity-service","timestamp":"2025-10-13T15:11:11.972Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/register","service":"identity-service","timestamp":"2025-10-13T15:11:41.922Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"identity-service","timestamp":"2025-10-13T15:11:41.923Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRegistering new user, Register endpoint hit...","service":"identity-service","timestamp":"2025-10-13T15:11:41.930Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/register","service":"identity-service","timestamp":"2025-10-13T15:12:59.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T15:12:59.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRegistering new user, Register endpoint hit...","service":"identity-service","timestamp":"2025-10-13T15:12:59.640Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/register","service":"identity-service","timestamp":"2025-10-13T15:13:03.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T15:13:03.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRegistering new user, Register endpoint hit...","service":"identity-service","timestamp":"2025-10-13T15:13:03.892Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tUser already exists","service":"identity-service","timestamp":"2025-10-13T15:13:03.902Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/register","service":"identity-service","timestamp":"2025-10-13T15:14:00.783Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T15:14:00.784Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRegistering new user, Register endpoint hit...","service":"identity-service","timestamp":"2025-10-13T15:14:00.790Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tValidation error during registration: \"username\" length must be at least 3 characters long","service":"identity-service","timestamp":"2025-10-13T15:14:00.793Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:29:24.233Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:29:24.255Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-13T15:43:36.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T15:43:36.637Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:44:15.621Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:44:15.643Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:44:28.330Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:44:28.356Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:44:43.958Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:44:43.978Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:45:14.664Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:45:14.686Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:45:30.610Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:45:30.630Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:45:53.570Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:45:53.594Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-13T15:46:00.849Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T15:46:00.850Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tLogging in user, Login endpoint hit...","service":"identity-service","timestamp":"2025-10-13T15:46:00.852Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/register","service":"identity-service","timestamp":"2025-10-13T15:52:38.133Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T15:52:38.135Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRegistering new user, Register endpoint hit...","service":"identity-service","timestamp":"2025-10-13T15:52:38.154Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tUser already exists","service":"identity-service","timestamp":"2025-10-13T15:52:38.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:56:31.962Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:56:31.990Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:56:33.790Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:56:33.809Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:56:40.731Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:56:40.751Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-10-13T15:57:23.965Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T15:57:23.965Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-13T15:57:29.318Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T15:57:29.318Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-13T15:57:29.319Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tLogin error occured user.comparePassword is not a function","service":"identity-service","stack":"TypeError: user.comparePassword is not a function\n    at loginUser (/Users/georgekibe/Programming/mern-devops/identity-service/src/controllers/identity-controller.js:73:40)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-13T15:57:29.331Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:58:39.161Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:58:39.182Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-13T15:58:42.235Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T15:58:42.236Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-13T15:58:42.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:59:29.536Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:59:29.556Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:59:32.053Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:59:32.079Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:59:34.240Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:59:34.259Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:59:41.219Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:59:41.240Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:59:45.730Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:59:45.751Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:59:50.076Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:59:50.097Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T15:59:53.067Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T15:59:53.087Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-13T15:59:56.973Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T15:59:56.973Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-13T15:59:56.976Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-13T16:00:01.745Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T16:00:01.746Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-13T16:00:01.748Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:00:19.763Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:00:19.786Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:00:37.463Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:00:37.486Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:00:43.594Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:00:43.617Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:00:46.296Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:00:46.317Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-13T16:00:49.651Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T16:00:49.651Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-13T16:00:49.653Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tLogin error occured pchstr must be a non-empty string","service":"identity-service","stack":"TypeError: pchstr must be a non-empty string\n    at deserialize (/Users/georgekibe/Programming/mern-devops/identity-service/node_modules/@phc/format/index.js:143:11)\n    at Object.verify (/Users/georgekibe/Programming/mern-devops/identity-service/node_modules/argon2/argon2.cjs:166:27)\n    at userSchema.methods.verifyPassword (/Users/georgekibe/Programming/mern-devops/identity-service/src/models/User.js:25:25)\n    at loginUser (/Users/georgekibe/Programming/mern-devops/identity-service/src/controllers/identity-controller.js:73:40)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-13T16:00:49.683Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-13T16:00:51.598Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T16:00:51.599Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-13T16:00:51.601Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tLogin error occured pchstr must be a non-empty string","service":"identity-service","stack":"TypeError: pchstr must be a non-empty string\n    at deserialize (/Users/georgekibe/Programming/mern-devops/identity-service/node_modules/@phc/format/index.js:143:11)\n    at Object.verify (/Users/georgekibe/Programming/mern-devops/identity-service/node_modules/argon2/argon2.cjs:166:27)\n    at userSchema.methods.verifyPassword (/Users/georgekibe/Programming/mern-devops/identity-service/src/models/User.js:25:25)\n    at loginUser (/Users/georgekibe/Programming/mern-devops/identity-service/src/controllers/identity-controller.js:73:40)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-13T16:00:51.606Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:01:11.729Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:01:11.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:01:12.777Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:01:12.801Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-13T16:01:15.128Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T16:01:15.128Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-13T16:01:15.130Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:03:13.956Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:03:13.978Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:03:18.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:03:18.732Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:03:20.538Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:03:20.556Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:03:26.354Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:03:26.374Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:03:27.908Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:03:27.927Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:03:30.418Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:03:30.438Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:03:32.246Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:03:32.266Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:03:36.237Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:03:36.258Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:03:39.115Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:03:39.135Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:03:44.606Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:03:44.626Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:03:45.895Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:03:45.916Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-13T16:03:48.008Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T16:03:48.008Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-13T16:03:48.010Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-13T16:04:12.533Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T16:04:12.533Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-13T16:04:12.534Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:05:12.634Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:05:12.656Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:06:55.257Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:06:55.281Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:07:39.199Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:07:39.220Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:07:41.591Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:07:41.611Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:07:44.462Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:07:44.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:09:35.888Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:09:35.915Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:09:37.456Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:09:37.475Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:09:43.820Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:09:43.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:09:46.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:09:46.183Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:09:49.141Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:09:49.161Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-13T16:13:35.772Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-13T16:13:35.797Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-13T16:16:43.220Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T16:16:43.221Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-13T16:16:43.223Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-13T16:16:53.571Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-13T16:16:53.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-13T16:16:53.573Z"}

@@ -1,7 +1,7 @@
 services:
   mongo:
     image: mongo:8
-    container_name: mongodb
+    container_name: mongodb-nodems
     ports:
       - "127.0.0.1:27017:27017"
     environment:
