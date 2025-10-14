@@ -1,0 +1,411 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service running on port 3002","service":"Posts Micro-service","timestamp":"2025-10-14T11:55:54.692Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Posts Micro-service","timestamp":"2025-10-14T11:55:54.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/posts/create-post","service":"Posts Micro-service","timestamp":"2025-10-14T12:18:03.081Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:18:03.081Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tCreate post endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:18:03.082Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"68ee3f7bca79cc70b4bd1f8d","content":"This is a sample test post","createdAt":"2025-10-14T12:18:03.087Z","mediaIds":[],"updatedAt":"2025-10-14T12:18:03.087Z","user":"68ed16fbc87ecc7aab999b6e"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"68ee3f7bca79cc70b4bd1f8d","content":"This is a sample test post","createdAt":"2025-10-14T12:18:03.087Z","mediaIds":[],"updatedAt":"2025-10-14T12:18:03.087Z","user":"68ed16fbc87ecc7aab999b6e"},"level":"\u001b[32minfo\u001b[39m","message":"\tPost created successfully","service":"Posts Micro-service","timestamp":"2025-10-14T12:18:03.115Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:18:45.580Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:18:45.580Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:18:45.581Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/posts/create-post","service":"Posts Micro-service","timestamp":"2025-10-14T12:23:39.145Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:23:39.146Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tCreate post endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:23:39.146Z"}
+{"0":"\"","1":"c","10":"i","11":"s","12":" ","13":"r","14":"e","15":"q","16":"u","17":"i","18":"r","19":"e","2":"o","20":"d","3":"n","4":"t","5":"e","6":"n","7":"t","8":"\"","9":" ","level":"\u001b[33mwarn\u001b[39m","message":"\tValidation error","service":"Posts Micro-service","timestamp":"2025-10-14T12:23:39.148Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/posts/create-post","service":"Posts Micro-service","timestamp":"2025-10-14T12:24:14.722Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:24:14.723Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tCreate post endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:24:14.723Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"68ee40eeca79cc70b4bd1f91","content":"This is a sample test post from Insomnia","createdAt":"2025-10-14T12:24:14.727Z","mediaIds":[],"updatedAt":"2025-10-14T12:24:14.727Z","user":"68ed16fbc87ecc7aab999b6e"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"68ee40eeca79cc70b4bd1f91","content":"This is a sample test post from Insomnia","createdAt":"2025-10-14T12:24:14.727Z","mediaIds":[],"updatedAt":"2025-10-14T12:24:14.727Z","user":"68ed16fbc87ecc7aab999b6e"},"level":"\u001b[32minfo\u001b[39m","message":"\tPost created successfully","service":"Posts Micro-service","timestamp":"2025-10-14T12:24:14.742Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/posts/create-post","service":"Posts Micro-service","timestamp":"2025-10-14T12:26:31.090Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:26:31.091Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tCreate post endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:26:31.091Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"68ee4177ca79cc70b4bd1f93","content":"This is a sample test post from Insomnia","createdAt":"2025-10-14T12:26:31.093Z","mediaIds":[],"updatedAt":"2025-10-14T12:26:31.093Z","user":"68ed16fbc87ecc7aab999b6e"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"68ee4177ca79cc70b4bd1f93","content":"This is a sample test post from Insomnia","createdAt":"2025-10-14T12:26:31.093Z","mediaIds":[],"updatedAt":"2025-10-14T12:26:31.093Z","user":"68ed16fbc87ecc7aab999b6e"},"level":"\u001b[32minfo\u001b[39m","message":"\tPost created successfully","service":"Posts Micro-service","timestamp":"2025-10-14T12:26:31.098Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:26:35.107Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:26:35.107Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:26:35.107Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service running on port 3002","service":"Posts Micro-service","timestamp":"2025-10-14T12:42:23.482Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Posts Micro-service","timestamp":"2025-10-14T12:42:23.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service running on port 3002","service":"Posts Micro-service","timestamp":"2025-10-14T12:42:26.651Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Posts Micro-service","timestamp":"2025-10-14T12:42:26.673Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service running on port 3002","service":"Posts Micro-service","timestamp":"2025-10-14T12:42:28.474Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Posts Micro-service","timestamp":"2025-10-14T12:42:28.494Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:05.908Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:05.909Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:05.909Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:06.955Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:06.955Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:06.956Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:07.662Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:07.663Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:07.663Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:08.268Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:08.269Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:08.269Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:09.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:09.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:09.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:09.521Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:09.521Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:09.521Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:09.871Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:09.872Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:09.872Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:10.098Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:10.099Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:10.099Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:10.354Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:10.355Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:10.355Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:10.581Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:10.581Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:10.581Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:10.808Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:10.809Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:10.809Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:11.041Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:11.042Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:11.042Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:11.248Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:11.248Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:11.249Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:11.454Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:11.454Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:11.455Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:11.665Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:11.666Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:11.666Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:11.854Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:11.855Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:11.855Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:12.043Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:12.043Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:12.043Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:12.250Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:12.250Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:12.250Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:12.542Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:12.543Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:12.543Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:12.626Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:12.626Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:12.626Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:12.807Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:12.807Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:12.807Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:13.027Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:13.027Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:13.027Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:16.494Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:16.494Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:45:16.494Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:49:57.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:49:57.864Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:49:57.864Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:49:59.106Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:49:59.106Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:49:59.106Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:49:59.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:49:59.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:49:59.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:00.410Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:00.410Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:00.410Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:00.917Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:00.917Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:00.917Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:01.461Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:01.462Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:01.462Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:02.277Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:02.278Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:02.278Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/posts/create-post","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:12.115Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:12.115Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tCreate post endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:12.123Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"68ee47040d302f56bd854a53","content":"This is  thhd a sample test post from Insomnia","createdAt":"2025-10-14T12:50:12.132Z","mediaIds":[],"updatedAt":"2025-10-14T12:50:12.132Z","user":"68ed16fbc87ecc7aab999b6e"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"68ee47040d302f56bd854a53","content":"This is  thhd a sample test post from Insomnia","createdAt":"2025-10-14T12:50:12.132Z","mediaIds":[],"updatedAt":"2025-10-14T12:50:12.132Z","user":"68ed16fbc87ecc7aab999b6e"},"level":"\u001b[32minfo\u001b[39m","message":"\tPost created successfully","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:12.142Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:17.369Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:17.369Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:17.369Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:18.912Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:18.912Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:18.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:20.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:20.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:20.020Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:20.739Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:20.739Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:20.739Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:21.187Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:21.187Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:21.187Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:21.431Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:21.432Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:21.432Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:21.648Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:21.648Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:21.648Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:21.850Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:21.850Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:21.850Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:22.065Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:22.065Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:22.066Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:22.263Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:22.263Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:50:22.263Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service running on port 3002","service":"Posts Micro-service","timestamp":"2025-10-14T12:58:40.186Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Posts Micro-service","timestamp":"2025-10-14T12:58:40.213Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service running on port 3002","service":"Posts Micro-service","timestamp":"2025-10-14T12:58:49.951Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Posts Micro-service","timestamp":"2025-10-14T12:58:49.971Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:05.014Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:05.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:05.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:08.152Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:08.152Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:08.153Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:09.186Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:09.186Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:09.187Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:09.776Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:09.776Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:09.777Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:10.242Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:10.242Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:10.242Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:12.297Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:12.298Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:12.298Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:13.355Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:13.355Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:13.356Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:14.324Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:14.325Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:14.325Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:14.873Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:14.873Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:14.874Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:15.199Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:15.199Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:15.199Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:15.450Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:15.450Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:15.450Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:15.660Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:15.660Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:15.660Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:15.857Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:15.857Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:15.857Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:16.020Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:16.020Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:16.020Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:16.183Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:16.184Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:16.184Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:16.338Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:16.338Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:16.339Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:16.506Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:16.506Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:16.506Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.060Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.060Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.060Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.202Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.202Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.202Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.341Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.496Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.496Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.496Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.654Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.655Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.655Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.839Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.839Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.839Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.972Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.972Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:17.972Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:18.123Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:18.123Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:18.123Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:18.433Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:18.434Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:18.434Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:18.592Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:18.592Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:18.592Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:18.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:18.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:18.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:18.907Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:18.907Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:18.907Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.073Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.073Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.073Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.238Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.238Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.239Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.393Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.393Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.393Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.547Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.548Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.548Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.867Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.867Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:19.867Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.032Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.032Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.033Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.196Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.197Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.197Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.358Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.358Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.358Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.512Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.512Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.512Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.670Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.670Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.670Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.995Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.995Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:20.996Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.490Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.491Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.491Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.494Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.494Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.495Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.656Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.657Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.657Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.810Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.810Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.810Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.978Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.978Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:21.978Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:22.132Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:22.132Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:22.132Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:22.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:22.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:22.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:22.492Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:22.493Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:22.493Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:25.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:25.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T12:59:25.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/68ee47040d302f56bd854a53","service":"Posts Micro-service","timestamp":"2025-10-14T13:02:13.993Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:02:13.994Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service running on port 3002","service":"Posts Micro-service","timestamp":"2025-10-14T13:03:14.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Posts Micro-service","timestamp":"2025-10-14T13:03:14.734Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service running on port 3002","service":"Posts Micro-service","timestamp":"2025-10-14T13:03:18.245Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Posts Micro-service","timestamp":"2025-10-14T13:03:18.265Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service running on port 3002","service":"Posts Micro-service","timestamp":"2025-10-14T13:03:25.438Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Posts Micro-service","timestamp":"2025-10-14T13:03:25.461Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/68ee47040d302f56bd854a53","service":"Posts Micro-service","timestamp":"2025-10-14T13:03:29.369Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:03:29.370Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tReferenceError: error is not defined\n    at getPost (/Users/georgekibe/Programming/mern-devops/post-service/src/controllers/post-controller.js:141:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"Posts Micro-service","timestamp":"2025-10-14T13:03:29.379Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/68ee47040d302f56bd854a53","service":"Posts Micro-service","timestamp":"2025-10-14T13:03:37.804Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:03:37.805Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tReferenceError: error is not defined\n    at getPost (/Users/georgekibe/Programming/mern-devops/post-service/src/controllers/post-controller.js:141:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"Posts Micro-service","timestamp":"2025-10-14T13:03:37.812Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service running on port 3002","service":"Posts Micro-service","timestamp":"2025-10-14T13:04:15.268Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Posts Micro-service","timestamp":"2025-10-14T13:04:15.289Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service running on port 3002","service":"Posts Micro-service","timestamp":"2025-10-14T13:04:18.492Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Posts Micro-service","timestamp":"2025-10-14T13:04:18.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/68ee47040d302f56bd854a53","service":"Posts Micro-service","timestamp":"2025-10-14T13:04:20.800Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:04:20.800Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tReferenceError: error is not defined\n    at getPost (/Users/georgekibe/Programming/mern-devops/post-service/src/controllers/post-controller.js:141:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"Posts Micro-service","timestamp":"2025-10-14T13:04:20.809Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/68ee47040d302f56bd854a53","service":"Posts Micro-service","timestamp":"2025-10-14T13:04:22.609Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:04:22.610Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tReferenceError: error is not defined\n    at getPost (/Users/georgekibe/Programming/mern-devops/post-service/src/controllers/post-controller.js:141:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"Posts Micro-service","timestamp":"2025-10-14T13:04:22.615Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service running on port 3002","service":"Posts Micro-service","timestamp":"2025-10-14T13:04:43.003Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Posts Micro-service","timestamp":"2025-10-14T13:04:43.023Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/68ee47040d302f56bd854a53","service":"Posts Micro-service","timestamp":"2025-10-14T13:04:45.619Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:04:45.621Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service running on port 3002","service":"Posts Micro-service","timestamp":"2025-10-14T13:06:05.378Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Posts Micro-service","timestamp":"2025-10-14T13:06:05.398Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/68ee47040d302f56bd854a53","service":"Posts Micro-service","timestamp":"2025-10-14T13:06:11.022Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:06:11.023Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tReferenceError: error is not defined\n    at getPost (/Users/georgekibe/Programming/mern-devops/post-service/src/controllers/post-controller.js:141:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"Posts Micro-service","timestamp":"2025-10-14T13:06:11.038Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/68ee47040d302f56bd854a53","service":"Posts Micro-service","timestamp":"2025-10-14T13:06:12.114Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:06:12.114Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tReferenceError: error is not defined\n    at getPost (/Users/georgekibe/Programming/mern-devops/post-service/src/controllers/post-controller.js:141:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"Posts Micro-service","timestamp":"2025-10-14T13:06:12.117Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T13:06:16.671Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:06:16.672Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T13:06:16.673Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/68ee47040d302f56bd854a53","service":"Posts Micro-service","timestamp":"2025-10-14T13:06:21.526Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:06:21.526Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tReferenceError: error is not defined\n    at getPost (/Users/georgekibe/Programming/mern-devops/post-service/src/controllers/post-controller.js:141:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"Posts Micro-service","timestamp":"2025-10-14T13:06:21.531Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service running on port 3002","service":"Posts Micro-service","timestamp":"2025-10-14T13:07:05.922Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Posts Micro-service","timestamp":"2025-10-14T13:07:05.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/68ee47040d302f56bd854a53","service":"Posts Micro-service","timestamp":"2025-10-14T13:07:09.421Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:07:09.421Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tError fetching post Schema hasn't been registered for model \"User\".\nUse mongoose.model(name, schema)","service":"Posts Micro-service","stack":"MissingSchemaError: Schema hasn't been registered for model \"User\".\nUse mongoose.model(name, schema)\n    at NativeConnection.model (/Users/georgekibe/Programming/mern-devops/post-service/node_modules/mongoose/lib/connection.js:1493:13)\n    at _getModelFromConn (/Users/georgekibe/Programming/mern-devops/post-service/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:579:15)\n    at addModelNamesToMap (/Users/georgekibe/Programming/mern-devops/post-service/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:507:17)\n    at getModelsMapForPopulate (/Users/georgekibe/Programming/mern-devops/post-service/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:208:7)\n    at _populatePath (/Users/georgekibe/Programming/mern-devops/post-service/node_modules/mongoose/lib/model.js:4471:21)\n    at Function.populate (/Users/georgekibe/Programming/mern-devops/post-service/node_modules/mongoose/lib/model.js:4438:21)\n    at /Users/georgekibe/Programming/mern-devops/post-service/node_modules/mongoose/lib/query.js:2654:11\n    at _init (/Users/georgekibe/Programming/mern-devops/post-service/node_modules/mongoose/lib/query.js:3330:5)\n    at Document.init (/Users/georgekibe/Programming/mern-devops/post-service/node_modules/mongoose/lib/document.js:654:5)\n    at Document.$init (/Users/georgekibe/Programming/mern-devops/post-service/node_modules/mongoose/lib/document.js:667:42)","timestamp":"2025-10-14T13:07:09.432Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service running on port 3002","service":"Posts Micro-service","timestamp":"2025-10-14T13:10:19.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Posts Micro-service","timestamp":"2025-10-14T13:10:19.023Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/68ee47040d302f56bd854a53","service":"Posts Micro-service","timestamp":"2025-10-14T13:10:22.316Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:10:22.317Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived DELETE request to /api/posts/68ee47040d302f56bd854a53","service":"Posts Micro-service","timestamp":"2025-10-14T13:41:58.721Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:41:58.721Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tDelete post endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T13:41:58.722Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/68ee47040d302f56bd854a53","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:09.754Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:09.754Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:24.173Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:24.174Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:24.174Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:32.313Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:32.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:32.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:33.771Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:33.771Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:33.771Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:35.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:35.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:35.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:35.643Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:35.644Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:35.644Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:36.200Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:36.201Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:36.201Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:36.646Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:36.646Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:36.646Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:36.924Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:36.924Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:36.924Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:37.184Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:37.184Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:37.184Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:37.437Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:37.437Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:37.437Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:39.179Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:39.179Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:39.179Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:42.553Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:42.553Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:42.553Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/all-posts","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:44.348Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:44.349Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tGet all posts endpoint hit","service":"Posts Micro-service","timestamp":"2025-10-14T13:42:44.349Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/posts/68ee40eeca79cc70b4bd1f91","service":"Posts Micro-service","timestamp":"2025-10-14T13:45:17.845Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Posts Micro-service","timestamp":"2025-10-14T13:45:17.846Z"}

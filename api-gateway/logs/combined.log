@@ -249,3 +249,487 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/auth/login","service":"API-Gateway service","timestamp":"2025-10-13T16:16:53.566Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-13T16:16:53.567Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Identity service: 200","service":"API-Gateway service","timestamp":"2025-10-13T16:16:53.629Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/auth/login","service":"API-Gateway service","timestamp":"2025-10-13T16:58:49.142Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-13T16:58:49.142Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Identity service: 200","service":"API-Gateway service","timestamp":"2025-10-13T16:58:49.212Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-14T11:14:08.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-14T11:14:08.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-14T11:14:08.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-14T11:14:08.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on http://localhost:3004","service":"API-Gateway service","timestamp":"2025-10-14T11:14:08.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-14T11:14:08.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-14T12:05:26.648Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-14T12:05:26.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-14T12:05:26.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-14T12:05:26.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on http://localhost:3004","service":"API-Gateway service","timestamp":"2025-10-14T12:05:26.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-14T12:05:26.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-14T12:07:05.425Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-14T12:07:05.426Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-14T12:07:05.426Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-14T12:07:05.426Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on http://localhost:3004","service":"API-Gateway service","timestamp":"2025-10-14T12:07:05.427Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-14T12:07:05.427Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-14T12:08:07.260Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-14T12:08:07.262Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-14T12:08:07.262Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-14T12:08:07.262Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on http://localhost:3004","service":"API-Gateway service","timestamp":"2025-10-14T12:08:07.262Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-14T12:08:07.262Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-14T12:08:09.570Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-14T12:08:09.571Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-14T12:08:09.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-14T12:08:09.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on http://localhost:3004","service":"API-Gateway service","timestamp":"2025-10-14T12:08:09.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-14T12:08:09.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-14T12:08:14.138Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-14T12:08:14.139Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-14T12:08:14.140Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-14T12:08:14.140Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on http://localhost:3004","service":"API-Gateway service","timestamp":"2025-10-14T12:08:14.140Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-14T12:08:14.140Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/posts/create-post","service":"API-Gateway service","timestamp":"2025-10-14T12:12:41.284Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:12:41.285Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"\tAccess attempt without valid token!","service":"API-Gateway service","timestamp":"2025-10-14T12:12:41.285Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-14T12:15:24.000Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-14T12:15:24.007Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-14T12:15:24.008Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-14T12:15:24.008Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on http://localhost:3004","service":"API-Gateway service","timestamp":"2025-10-14T12:15:24.008Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-14T12:15:24.008Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-14T12:15:25.309Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-14T12:15:25.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-14T12:15:25.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-14T12:15:25.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on http://localhost:3004","service":"API-Gateway service","timestamp":"2025-10-14T12:15:25.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-14T12:15:25.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-14T12:15:35.757Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-14T12:15:35.759Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-14T12:15:35.759Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-14T12:15:35.759Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on http://localhost:3004","service":"API-Gateway service","timestamp":"2025-10-14T12:15:35.759Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-14T12:15:35.759Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-14T12:15:38.171Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-14T12:15:38.173Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-14T12:15:38.173Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-14T12:15:38.173Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on http://localhost:3004","service":"API-Gateway service","timestamp":"2025-10-14T12:15:38.173Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-14T12:15:38.173Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-14T12:15:40.453Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-14T12:15:40.455Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-14T12:15:40.455Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-14T12:15:40.455Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on http://localhost:3004","service":"API-Gateway service","timestamp":"2025-10-14T12:15:40.456Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-14T12:15:40.456Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-14T12:15:46.648Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-14T12:15:46.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-14T12:15:46.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-14T12:15:46.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on http://localhost:3004","service":"API-Gateway service","timestamp":"2025-10-14T12:15:46.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-14T12:15:46.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-14T12:15:48.735Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-14T12:15:48.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-14T12:15:48.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-14T12:15:48.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on http://localhost:3004","service":"API-Gateway service","timestamp":"2025-10-14T12:15:48.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-14T12:15:48.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tAPI Gateway is running on port 3000","service":"API-Gateway service","timestamp":"2025-10-14T12:15:51.231Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity service is running on http://localhost:3001","service":"API-Gateway service","timestamp":"2025-10-14T12:15:51.233Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tPost service is running on http://localhost:3002","service":"API-Gateway service","timestamp":"2025-10-14T12:15:51.233Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service is running on http://localhost:3003","service":"API-Gateway service","timestamp":"2025-10-14T12:15:51.233Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSearch service is running on http://localhost:3004","service":"API-Gateway service","timestamp":"2025-10-14T12:15:51.233Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRedis Url redis://localhost:6379","service":"API-Gateway service","timestamp":"2025-10-14T12:15:51.234Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/posts/create-post","service":"API-Gateway service","timestamp":"2025-10-14T12:18:03.037Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:18:03.037Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 201","service":"API-Gateway service","timestamp":"2025-10-14T12:18:03.119Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:18:45.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:18:45.573Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:18:45.674Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/posts/create-post","service":"API-Gateway service","timestamp":"2025-10-14T12:23:39.140Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:23:39.140Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 400","service":"API-Gateway service","timestamp":"2025-10-14T12:23:39.149Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/posts/create-post","service":"API-Gateway service","timestamp":"2025-10-14T12:24:14.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:24:14.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 201","service":"API-Gateway service","timestamp":"2025-10-14T12:24:14.743Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tExpected double-quoted property name in JSON at position 58 (line 3 column 1)","service":"API-Gateway service","stack":"SyntaxError: Expected double-quoted property name in JSON at position 58 (line 3 column 1)\n    at JSON.parse (<anonymous>)\n    at parse (/Users/georgekibe/Programming/mern-devops/api-gateway/node_modules/body-parser/lib/types/json.js:77:19)\n    at /Users/georgekibe/Programming/mern-devops/api-gateway/node_modules/body-parser/lib/read.js:123:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (/Users/georgekibe/Programming/mern-devops/api-gateway/node_modules/raw-body/index.js:238:16)\n    at done (/Users/georgekibe/Programming/mern-devops/api-gateway/node_modules/raw-body/index.js:227:7)\n    at IncomingMessage.onEnd (/Users/georgekibe/Programming/mern-devops/api-gateway/node_modules/raw-body/index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2025-10-14T12:26:19.181Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/posts/create-post","service":"API-Gateway service","timestamp":"2025-10-14T12:26:31.068Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:26:31.068Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 201","service":"API-Gateway service","timestamp":"2025-10-14T12:26:31.100Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:26:35.102Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:26:35.102Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:26:35.118Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:05.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:05.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:05.932Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:06.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:06.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:06.956Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:07.657Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:07.658Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:07.666Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:08.264Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:08.265Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:08.270Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:09.014Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:09.014Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:09.021Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:09.517Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:09.518Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:09.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:09.868Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:09.868Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:09.873Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:10.095Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:10.095Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:10.100Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:10.350Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:10.350Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:10.357Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:10.578Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:10.578Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:10.582Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:10.805Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:10.805Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:10.810Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:11.038Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:11.038Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:11.043Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:11.244Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:11.244Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:11.250Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:11.451Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:11.452Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:11.456Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:11.662Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:11.662Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:11.667Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:11.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:11.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:11.856Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:12.041Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:12.041Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:12.043Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:12.248Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:12.249Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:12.251Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:12.540Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:12.540Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:12.544Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:12.622Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:12.622Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:12.627Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:12.805Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:12.805Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:12.807Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:13.025Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:13.025Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:13.028Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:45:16.492Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:45:16.492Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:45:16.495Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:49:57.857Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:49:57.857Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:49:57.867Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:49:59.103Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:49:59.103Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:49:59.108Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:49:59.838Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:49:59.838Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:49:59.844Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:50:00.408Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:50:00.408Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:50:00.411Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:50:00.914Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:50:00.914Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:50:00.918Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:50:01.448Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:50:01.449Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:50:01.463Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:50:02.274Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:50:02.274Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:50:02.279Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/posts/create-post","service":"API-Gateway service","timestamp":"2025-10-14T12:50:12.111Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:50:12.111Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 201","service":"API-Gateway service","timestamp":"2025-10-14T12:50:12.143Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:50:17.367Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:50:17.367Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:50:17.386Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:50:18.908Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:50:18.909Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:50:18.914Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:50:20.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:50:20.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:50:20.021Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:50:20.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:50:20.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:50:20.739Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:50:21.183Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:50:21.183Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:50:21.188Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:50:21.429Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:50:21.429Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:50:21.433Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:50:21.645Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:50:21.645Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:50:21.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:50:21.847Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:50:21.847Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:50:21.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:50:22.061Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:50:22.062Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:50:22.068Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:50:22.260Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:50:22.260Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:50:22.265Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:05.000Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:05.000Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:05.034Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:08.150Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:08.150Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:08.153Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:09.182Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:09.182Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:09.189Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:09.774Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:09.774Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:09.777Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:10.238Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:10.239Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:10.245Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:12.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:12.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:12.301Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:13.351Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:13.352Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:13.357Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:14.321Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:14.321Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:14.326Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:14.870Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:14.870Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:14.876Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:15.195Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:15.196Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:15.201Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:15.446Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:15.446Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:15.452Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:15.658Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:15.659Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:15.661Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:15.853Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:15.853Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:15.860Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:16.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:16.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:16.021Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:16.182Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:16.182Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:16.184Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:16.334Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:16.334Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:16.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:16.504Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:16.504Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:16.506Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.057Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.058Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.061Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.199Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.199Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.203Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.338Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.339Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.341Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.493Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.493Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.498Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.658Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.968Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.969Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:17.973Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:18.121Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:18.121Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:18.123Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:18.430Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:18.431Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:18.435Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:18.589Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:18.589Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:18.593Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:18.745Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:18.745Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:18.750Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:18.904Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:18.904Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:18.909Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.071Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.071Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.073Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.234Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.235Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.240Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.389Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.389Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.544Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.544Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.549Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.709Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.709Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.864Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.864Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:19.868Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.028Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.028Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.034Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.193Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.193Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.198Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.352Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.352Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.359Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.509Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.509Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.513Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.668Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.668Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.671Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.839Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.839Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.992Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.992Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:20.998Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.488Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.488Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.491Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.493Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.493Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.495Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.658Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.807Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.807Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.811Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.975Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.975Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:21.980Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:22.128Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:22.128Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:22.134Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:22.290Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:22.290Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:22.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:22.487Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:22.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:22.495Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T12:59:25.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T12:59:25.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T12:59:25.315Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/68ee47040d302f56bd854a53","service":"API-Gateway service","timestamp":"2025-10-14T13:02:13.989Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:02:13.990Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:02:14.003Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/68ee47040d302f56bd854a53","service":"API-Gateway service","timestamp":"2025-10-14T13:03:29.347Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:03:29.348Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 500","service":"API-Gateway service","timestamp":"2025-10-14T13:03:29.381Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/68ee47040d302f56bd854a53","service":"API-Gateway service","timestamp":"2025-10-14T13:03:37.797Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:03:37.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 500","service":"API-Gateway service","timestamp":"2025-10-14T13:03:37.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/68ee47040d302f56bd854a53","service":"API-Gateway service","timestamp":"2025-10-14T13:04:20.777Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:04:20.779Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 500","service":"API-Gateway service","timestamp":"2025-10-14T13:04:20.811Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/68ee47040d302f56bd854a53","service":"API-Gateway service","timestamp":"2025-10-14T13:04:22.605Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:04:22.605Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 500","service":"API-Gateway service","timestamp":"2025-10-14T13:04:22.616Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/68ee47040d302f56bd854a53","service":"API-Gateway service","timestamp":"2025-10-14T13:04:45.557Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:04:45.557Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:04:45.634Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/68ee47040d302f56bd854a53","service":"API-Gateway service","timestamp":"2025-10-14T13:06:11.003Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:06:11.004Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 500","service":"API-Gateway service","timestamp":"2025-10-14T13:06:11.040Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/68ee47040d302f56bd854a53","service":"API-Gateway service","timestamp":"2025-10-14T13:06:12.111Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:06:12.112Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 500","service":"API-Gateway service","timestamp":"2025-10-14T13:06:12.118Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T13:06:16.666Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:06:16.666Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:06:16.696Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/68ee47040d302f56bd854a53","service":"API-Gateway service","timestamp":"2025-10-14T13:06:21.523Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:06:21.523Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 500","service":"API-Gateway service","timestamp":"2025-10-14T13:06:21.532Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/68ee47040d302f56bd854a53","service":"API-Gateway service","timestamp":"2025-10-14T13:07:09.382Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:07:09.388Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 500","service":"API-Gateway service","timestamp":"2025-10-14T13:07:09.435Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/68ee47040d302f56bd854a53","service":"API-Gateway service","timestamp":"2025-10-14T13:10:22.301Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:10:22.301Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:10:22.331Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived DELETE request to /v1/posts/68ee47040d302f56bd854a53","service":"API-Gateway service","timestamp":"2025-10-14T13:41:34.877Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:41:34.879Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"\tInvalid token!","service":"API-Gateway service","timestamp":"2025-10-14T13:41:34.892Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/auth/login","service":"API-Gateway service","timestamp":"2025-10-14T13:41:45.912Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:41:45.912Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Identity service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:41:46.034Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived DELETE request to /v1/posts/68ee47040d302f56bd854a53","service":"API-Gateway service","timestamp":"2025-10-14T13:41:58.717Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:41:58.717Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:41:58.772Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/68ee47040d302f56bd854a53","service":"API-Gateway service","timestamp":"2025-10-14T13:42:05.283Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:42:05.283Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"\tInvalid token!","service":"API-Gateway service","timestamp":"2025-10-14T13:42:05.284Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/68ee47040d302f56bd854a53","service":"API-Gateway service","timestamp":"2025-10-14T13:42:09.719Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:42:09.719Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 404","service":"API-Gateway service","timestamp":"2025-10-14T13:42:09.760Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T13:42:18.334Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:42:18.334Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"\tInvalid token!","service":"API-Gateway service","timestamp":"2025-10-14T13:42:18.335Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T13:42:24.170Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:42:24.170Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:42:24.192Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T13:42:32.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:42:32.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:42:32.316Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T13:42:33.754Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:42:33.756Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:42:33.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T13:42:35.010Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:42:35.010Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:42:35.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T13:42:35.640Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:42:35.640Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:42:35.645Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T13:42:36.196Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:42:36.196Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:42:36.203Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T13:42:36.635Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:42:36.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:42:36.647Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T13:42:36.920Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:42:36.921Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:42:36.925Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T13:42:37.182Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:42:37.182Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:42:37.185Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T13:42:37.434Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:42:37.434Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:42:37.439Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T13:42:39.175Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:42:39.176Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:42:39.180Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T13:42:42.550Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:42:42.550Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:42:42.554Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-14T13:42:44.345Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:42:44.345Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:42:44.355Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/68ee40eeca79cc70b4bd1f91","service":"API-Gateway service","timestamp":"2025-10-14T13:45:17.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-14T13:45:17.837Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-14T13:45:17.859Z"}

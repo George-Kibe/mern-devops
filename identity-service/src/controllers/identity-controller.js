@@ -3,7 +3,6 @@ const User = require('../models/User');
 const RefreshToken = require('../models/RefreshToken');
 const { validateRegistration, validateLogin } = require('../utils/validation');
 const generateTokens = require('../utils/generateTokens');
-const { log } = require('winston');
 
 // user registration
 const registerUser = async (req, res) => {

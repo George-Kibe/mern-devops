@@ -1,0 +1,14 @@
+{
+  "name": "media-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "indsrc/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --env-file=.env src/server.js",
+    "start": "node --env-file=.env.prod src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

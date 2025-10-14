@@ -9,7 +9,7 @@ const generateTokens = async (user) => {
       username: user.username,
     },
     process.env.JWT_SECRET,
-    { expiresIn: "60m" }
+    { expiresIn: "60m" } // Access token expires in 60 minutes
   );
 
   const refreshToken = crypto.randomBytes(40).toString("hex");
