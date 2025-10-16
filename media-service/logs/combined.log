@@ -1,0 +1,209 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-15T14:21:50.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-15T14:21:52.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T14:22:58.175Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-15T14:22:58.195Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T14:23:15.911Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-15T14:23:15.933Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T14:23:16.945Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-15T14:23:16.965Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T14:44:10.137Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"Media Micro-service","timestamp":"2025-10-15T14:44:10.138Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tPayloadTooLargeError: request entity too large\n    at readStream (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/raw-body/index.js:163:17)\n    at getRawBody (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/raw-body/index.js:116:12)\n    at read (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/body-parser/lib/read.js:74:3)\n    at jsonParser (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/body-parser/lib/types/json.js:125:5)\n    at Layer.handleRequest (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/index.js:342:13)\n    at /Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/index.js:297:9\n    at processParams (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/index.js:582:12)\n    at next (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/index.js:291:5)\n    at internalNext (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/helmet/index.cjs:531:6)","service":"Media Micro-service","timestamp":"2025-10-15T14:48:14.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T14:55:28.288Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-15T14:55:28.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T14:55:56.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T14:55:56.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T14:56:06.071Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T14:56:06.074Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T14:56:21.796Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T14:56:21.797Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T14:56:34.780Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T14:56:34.780Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T14:56:40.774Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T14:56:40.775Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T14:59:24.862Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T14:59:24.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:00:20.345Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-15T15:00:20.363Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tSyntaxError: Unexpected token '�', \"�PNG\r\n\u001a\n\u0000\u0000\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/body-parser/lib/types/json.js:156:10)\n    at parse (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/body-parser/lib/types/json.js:71:15)\n    at /Users/georgekibe/Programming/mern-devops/media-service/node_modules/body-parser/lib/read.js:123:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/raw-body/index.js:238:16)\n    at done (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/raw-body/index.js:227:7)\n    at IncomingMessage.onEnd (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/raw-body/index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","service":"Media Micro-service","timestamp":"2025-10-15T15:00:27.653Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:01:16.341Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-15T15:01:16.361Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:01:19.276Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-15T15:01:19.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:01:32.089Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-15T15:01:32.110Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:01:35.235Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-15T15:01:35.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:01:39.725Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-15T15:01:39.746Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tSyntaxError: Unexpected token '�', \"�PNG\r\n\u001a\n\u0000\u0000\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/body-parser/lib/types/json.js:156:10)\n    at parse (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/body-parser/lib/types/json.js:71:15)\n    at /Users/georgekibe/Programming/mern-devops/media-service/node_modules/body-parser/lib/read.js:123:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/raw-body/index.js:238:16)\n    at done (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/raw-body/index.js:227:7)\n    at IncomingMessage.onEnd (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/raw-body/index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","service":"Media Micro-service","timestamp":"2025-10-15T15:01:47.940Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:03:23.344Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to MongoDB","service":"Media Micro-service","timestamp":"2025-10-15T15:03:23.365Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T15:03:29.075Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:03:29.076Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T15:03:30.463Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:03:30.464Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T15:03:31.023Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:03:31.024Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:05:41.812Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to MongoDB","service":"Media Micro-service","timestamp":"2025-10-15T15:05:41.832Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:05:44.262Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to MongoDB","service":"Media Micro-service","timestamp":"2025-10-15T15:05:44.281Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:05:49.265Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to MongoDB","service":"Media Micro-service","timestamp":"2025-10-15T15:05:49.285Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:05:52.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to MongoDB","service":"Media Micro-service","timestamp":"2025-10-15T15:05:52.534Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:05:54.046Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to MongoDB","service":"Media Micro-service","timestamp":"2025-10-15T15:05:54.067Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:05:57.444Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to MongoDB","service":"Media Micro-service","timestamp":"2025-10-15T15:05:57.463Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:05:58.535Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to MongoDB","service":"Media Micro-service","timestamp":"2025-10-15T15:05:58.554Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:05:59.899Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to MongoDB","service":"Media Micro-service","timestamp":"2025-10-15T15:05:59.917Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:06:02.277Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to MongoDB","service":"Media Micro-service","timestamp":"2025-10-15T15:06:02.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:06:05.839Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to MongoDB","service":"Media Micro-service","timestamp":"2025-10-15T15:06:05.859Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:06:08.510Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to MongoDB","service":"Media Micro-service","timestamp":"2025-10-15T15:06:08.527Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:06:11.110Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to MongoDB","service":"Media Micro-service","timestamp":"2025-10-15T15:06:11.129Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T15:06:16.110Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:06:16.111Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest File, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:06:16.111Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest Files","service":"Media Micro-service","timestamp":"2025-10-15T15:06:16.112Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:07:32.688Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to MongoDB","service":"Media Micro-service","timestamp":"2025-10-15T15:07:32.708Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T15:07:37.902Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:07:37.902Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest File, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:07:37.903Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest Files\", undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:07:37.903Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T15:07:56.211Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:07:56.212Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest File, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:07:56.212Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest Files\", undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:07:56.212Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T15:15:41.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:15:41.715Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest File, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:15:41.715Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest Files\", undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:15:41.715Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tSyntaxError: Unexpected token '�', \"�PNG\r\n\u001a\n\u0000\u0000\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/body-parser/lib/types/json.js:156:10)\n    at parse (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/body-parser/lib/types/json.js:71:15)\n    at /Users/georgekibe/Programming/mern-devops/media-service/node_modules/body-parser/lib/read.js:123:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/raw-body/index.js:238:16)\n    at done (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/raw-body/index.js:227:7)\n    at IncomingMessage.onEnd (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/raw-body/index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","service":"Media Micro-service","timestamp":"2025-10-15T15:15:41.740Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T15:16:24.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:16:24.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest File, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:16:24.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest Files\", undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:16:24.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T15:16:53.992Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:16:53.993Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest File, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:16:53.993Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest Files\", undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:16:53.993Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:17:15.298Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to MongoDB","service":"Media Micro-service","timestamp":"2025-10-15T15:17:15.319Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T15:17:19.752Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:17:19.752Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest File, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:17:19.752Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest Files\", undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:17:19.752Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T15:18:06.785Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:18:06.786Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest File, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:18:06.786Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest Files\", undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:18:06.787Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tUnknown error occured while uploading: Multipart: Boundary not found","service":"Media Micro-service","stack":"Error: Multipart: Boundary not found\n    at new Multipart (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/busboy/lib/types/multipart.js:233:13)\n    at getInstance (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/busboy/lib/index.js:33:12)\n    at module.exports (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/busboy/lib/index.js:56:10)\n    at multerMiddleware (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/multer/lib/make-middleware.js:38:16)\n    at /Users/georgekibe/Programming/mern-devops/media-service/src/routes/media-routes.js:25:5\n    at Layer.handleRequest (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/lib/route.js:157:13)\n    at authenticateRequest (/Users/georgekibe/Programming/mern-devops/media-service/src/middlewares/authMiddleware.js:15:3)\n    at Layer.handleRequest (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/lib/route.js:157:13)","timestamp":"2025-10-15T15:18:06.789Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:19:35.067Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-15T15:19:35.094Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T15:19:39.756Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:19:39.756Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tUnknown error occured while uploading: Multipart: Boundary not found","service":"Media Micro-service","stack":"Error: Multipart: Boundary not found\n    at new Multipart (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/busboy/lib/types/multipart.js:233:13)\n    at getInstance (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/busboy/lib/index.js:33:12)\n    at module.exports (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/busboy/lib/index.js:56:10)\n    at multerMiddleware (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/multer/lib/make-middleware.js:38:16)\n    at /Users/georgekibe/Programming/mern-devops/media-service/src/routes/media-routes.js:25:5\n    at Layer.handleRequest (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/lib/route.js:157:13)\n    at authenticateRequest (/Users/georgekibe/Programming/mern-devops/media-service/src/middlewares/authMiddleware.js:15:3)\n    at Layer.handleRequest (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/lib/route.js:157:13)","timestamp":"2025-10-15T15:19:39.757Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T15:19:43.647Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:19:43.647Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"\tUnknown error occured while uploading: Multipart: Boundary not found","service":"Media Micro-service","stack":"Error: Multipart: Boundary not found\n    at new Multipart (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/busboy/lib/types/multipart.js:233:13)\n    at getInstance (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/busboy/lib/index.js:33:12)\n    at module.exports (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/busboy/lib/index.js:56:10)\n    at multerMiddleware (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/multer/lib/make-middleware.js:38:16)\n    at /Users/georgekibe/Programming/mern-devops/media-service/src/routes/media-routes.js:25:5\n    at Layer.handleRequest (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/lib/route.js:157:13)\n    at authenticateRequest (/Users/georgekibe/Programming/mern-devops/media-service/src/middlewares/authMiddleware.js:15:3)\n    at Layer.handleRequest (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/georgekibe/Programming/mern-devops/media-service/node_modules/router/lib/route.js:157:13)","timestamp":"2025-10-15T15:19:43.648Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T15:21:40.215Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:21:40.215Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tStarting media upload","service":"Media Micro-service","timestamp":"2025-10-15T15:21:40.218Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tFile details: name=filter.png, type=image/png","service":"Media Micro-service","timestamp":"2025-10-15T15:21:40.220Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tUploading to cloudinary starting...","service":"Media Micro-service","timestamp":"2025-10-15T15:21:40.220Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tCloudinary upload successfully. Public Id: - jvp4mjyyawutpsq9aiq6","service":"Media Micro-service","timestamp":"2025-10-15T15:21:42.363Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:22:35.341Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-15T15:22:35.359Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:22:36.618Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-15T15:22:36.638Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-15T15:22:40.406Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-15T15:22:40.430Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-15T15:23:07.149Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-15T15:23:07.150Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tStarting media upload","service":"Media Micro-service","timestamp":"2025-10-15T15:23:07.155Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tFile details: name=filter.png, type=image/png","service":"Media Micro-service","timestamp":"2025-10-15T15:23:07.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tUploading to cloudinary starting...","service":"Media Micro-service","timestamp":"2025-10-15T15:23:07.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tCloudinary upload successfully. Public Id: - j4fzryk1dmh9xnx7el9l","service":"Media Micro-service","timestamp":"2025-10-15T15:23:09.144Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-16T14:11:20.809Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-16T14:11:20.829Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-16T14:11:25.362Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-16T14:11:25.382Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-16T14:11:29.423Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-16T14:11:29.445Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-16T14:11:34.200Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-16T14:11:34.222Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-16T14:11:36.855Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-16T14:11:36.872Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/get","service":"Media Micro-service","timestamp":"2025-10-16T14:12:47.034Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T14:12:47.034Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/get","service":"Media Micro-service","timestamp":"2025-10-16T14:13:32.689Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T14:13:32.690Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-16T14:13:50.507Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-16T14:13:50.525Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/get","service":"Media Micro-service","timestamp":"2025-10-16T14:13:55.998Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T14:13:55.998Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-16T14:16:26.066Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-16T14:16:26.085Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-16T14:16:28.325Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-16T14:16:28.344Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/get","service":"Media Micro-service","timestamp":"2025-10-16T14:16:32.562Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T14:16:32.562Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-16T14:19:22.720Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T14:19:22.722Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tStarting media upload","service":"Media Micro-service","timestamp":"2025-10-16T14:19:22.727Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tFile details: name=diamond.png, type=image/png","service":"Media Micro-service","timestamp":"2025-10-16T14:19:22.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tUploading to cloudinary starting...","service":"Media Micro-service","timestamp":"2025-10-16T14:19:22.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tCloudinary upload successfully. Public Id: - eeu1wqc7r7ntggn8zwgs","service":"Media Micro-service","timestamp":"2025-10-16T14:19:25.382Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/get","service":"Media Micro-service","timestamp":"2025-10-16T14:19:29.241Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T14:19:29.241Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-16T14:27:47.764Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-16T14:27:47.786Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-16T14:29:24.287Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to rabbit mq. Successful!","service":"Media Micro-service","timestamp":"2025-10-16T14:29:24.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-16T14:29:24.295Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-16T14:31:13.706Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to rabbit mq. Successful!","service":"Media Micro-service","timestamp":"2025-10-16T14:31:13.709Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-16T14:31:13.710Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-16T14:31:19.718Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to rabbit mq. Successful!","service":"Media Micro-service","timestamp":"2025-10-16T14:31:19.721Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-16T14:31:19.722Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-16T14:38:20.534Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to rabbit mq. Successful!","service":"Media Micro-service","timestamp":"2025-10-16T14:38:20.537Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-16T14:38:20.538Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"Media Micro-service","timestamp":"2025-10-16T14:38:33.334Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to rabbit mq. Successful!","service":"Media Micro-service","timestamp":"2025-10-16T14:38:33.337Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tSubscribed to event: post.deleted","service":"Media Micro-service","timestamp":"2025-10-16T14:38:33.355Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tMedia service running on port 3003","service":"Media Micro-service","timestamp":"2025-10-16T14:38:33.356Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/get","service":"Media Micro-service","timestamp":"2025-10-16T14:45:12.982Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T14:45:12.983Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/get","service":"Media Micro-service","timestamp":"2025-10-16T14:45:14.893Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T14:45:14.894Z"}
+{"0":"e","1":"e","10":"n","11":"t","12":"g","13":"g","14":"n","15":"8","16":"z","17":"w","18":"g","19":"s","2":"u","3":"1","4":"w","5":"q","6":"c","7":"7","8":"r","9":"7","level":"\u001b[32minfo\u001b[39m","message":"\tMedia deleted successfuly from cloud stroage","service":"Media Micro-service","timestamp":"2025-10-16T14:52:26.693Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tDeleted medua 68f0feedd98cee3365a211d2 associated with this deleted post 68f106560d3215108f1b6d25","service":"Media Micro-service","timestamp":"2025-10-16T14:52:26.703Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tProcessed deletion of media for post id 68f106560d3215108f1b6d25","service":"Media Micro-service","timestamp":"2025-10-16T14:52:26.703Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/get","service":"Media Micro-service","timestamp":"2025-10-16T14:52:41.500Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T14:52:41.501Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-16T14:53:00.374Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T14:53:00.374Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tStarting media upload","service":"Media Micro-service","timestamp":"2025-10-16T14:53:00.382Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tFile details: name=diamond.png, type=image/png","service":"Media Micro-service","timestamp":"2025-10-16T14:53:00.384Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tUploading to cloudinary starting...","service":"Media Micro-service","timestamp":"2025-10-16T14:53:00.384Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tCloudinary upload successfully. Public Id: - vlvenntervijlbwrs3pk","service":"Media Micro-service","timestamp":"2025-10-16T14:53:02.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/get","service":"Media Micro-service","timestamp":"2025-10-16T14:53:05.976Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T14:53:05.976Z"}
+{"0":"j","1":"v","10":"u","11":"t","12":"p","13":"s","14":"q","15":"9","16":"a","17":"i","18":"q","19":"6","2":"p","3":"4","4":"m","5":"j","6":"y","7":"y","8":"a","9":"w","level":"\u001b[32minfo\u001b[39m","message":"\tMedia deleted successfuly from cloud stroage","service":"Media Micro-service","timestamp":"2025-10-16T14:56:38.231Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tDeleted medua 68efbc064275c2202c22ceb8 associated with this deleted post 68f107920d3215108f1b6d2a","service":"Media Micro-service","timestamp":"2025-10-16T14:56:38.237Z"}
+{"0":"j","1":"4","10":"h","11":"9","12":"x","13":"n","14":"x","15":"7","16":"e","17":"l","18":"9","19":"l","2":"f","3":"z","4":"r","5":"y","6":"k","7":"1","8":"d","9":"m","level":"\u001b[32minfo\u001b[39m","message":"\tMedia deleted successfuly from cloud stroage","service":"Media Micro-service","timestamp":"2025-10-16T14:56:38.932Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tDeleted medua 68efbc5d48fa45aa51341427 associated with this deleted post 68f107920d3215108f1b6d2a","service":"Media Micro-service","timestamp":"2025-10-16T14:56:38.938Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tProcessed deletion of media for post id 68f107920d3215108f1b6d2a","service":"Media Micro-service","timestamp":"2025-10-16T14:56:38.938Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/get","service":"Media Micro-service","timestamp":"2025-10-16T14:56:39.633Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T14:56:39.633Z"}

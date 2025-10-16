@@ -277,3 +277,16 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-14T13:41:45.945Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-14T13:41:45.946Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-14T13:41:45.952Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-15T13:51:32.012Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-15T13:51:32.043Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-15T14:41:38.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-15T14:41:38.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-15T14:41:38.952Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-15T15:14:53.042Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-15T15:14:53.042Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-15T15:14:53.048Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tIdentity Service running on http://localhost:3001","service":"identity-service","timestamp":"2025-10-16T13:44:14.919Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tConnected to mongodb","service":"identity-service","timestamp":"2025-10-16T13:44:14.938Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-16T14:12:06.858Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-16T14:12:06.858Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-16T14:12:06.865Z"}

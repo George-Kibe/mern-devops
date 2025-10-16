@@ -6,7 +6,7 @@ const helmet = require("helmet");
 const postRoutes = require("./routes/post-routes");
 const errorHandler = require("./middlewares/errorhandler");
 const logger = require("./utils/logger");
-// const { connectToRabbitMQ } = require("./utils/rabbitmq");
+const { connectToRabbitMQ } = require("./utils/rabbitmq");
 
 const app = express();
 const PORT = process.env.PORT || 3002;
@@ -46,7 +46,7 @@ app.use(errorHandler);
 
 async function startServer() {
   try {
-    // await connectToRabbitMQ();
+    await connectToRabbitMQ();
     app.listen(PORT, () => {
       logger.info(`Post service running on port ${PORT}`);
     });

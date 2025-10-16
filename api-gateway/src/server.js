@@ -97,6 +97,54 @@ app.use(
   })
 );
 
+//setting up proxy for our media service
+app.use(
+  "/v1/media",
+  validateToken,
+  proxy(process.env.MEDIA_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+      proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+      if (!srcReq.headers["content-type"].startsWith("multipart/form-data")) {
+        proxyReqOpts.headers["Content-Type"] = "application/json";
+      }
+
+      return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(
+        `Response received from media service: ${proxyRes.statusCode}`
+      );
+
+      return proxyResData;
+    },
+    parseReqBody: false,
+  })
+);
+
+//setting up proxy for our search service
+app.use(
+  "/v1/search",
+  validateToken,
+  proxy(process.env.SEARCH_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+      proxyReqOpts.headers["Content-Type"] = "application/json";
+      proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+
+      return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(
+        `Response received from Search service: ${proxyRes.statusCode}`
+      );
+
+      return proxyResData;
+    },
+  })
+);
+
+
 app.listen(PORT, () => {
   logger.info(`API Gateway is running on port ${PORT}`);
   logger.info(

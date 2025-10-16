@@ -1,6 +1,6 @@
 const Post = require("../models/Post");
 const logger = require("../utils/logger");
-// const { publishEvent } = require("../utils/rabbitmq");
+const { publishEvent } = require("../utils/rabbitmq");
 const { validateCreatePost } = require("../utils/validation");
 
 async function invalidatePostCache(req, input) {
@@ -162,17 +162,18 @@ const deletePost = async (req, res) => {
     }
 
     //publish post delete method ->
-    // await publishEvent("post.deleted", {
-    //   postId: post._id.toString(),
-    //   userId: req.user.userId,
-    //   mediaIds: post.mediaIds,
-    // });
+    // when you delete a post, you need an event to media service to delete the media associated with the post
+    await publishEvent("post.deleted", {
+      postId: post._id.toString(),
+      userId: req.user.userId,
+      mediaIds: post.mediaIds,
+    });
 
     await invalidatePostCache(req, req.params.id);
     res.json({
       message: "Post deleted successfully",
     });
-  } catch (e) {
+  } catch (error) {
     logger.error("Error deleting post", error);
     res.status(500).json({
       success: false,

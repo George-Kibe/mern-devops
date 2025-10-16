@@ -12,8 +12,34 @@ services:
     restart: on-failure
     volumes:
       - mongo-data:/data/db
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    networks:
+      - node-app-network
+    restart: on-failure
+    volumes:
+      - redis-data:/data
+
+  rabbitmq:
+    image: rabbitmq:4.0-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    healthcheck:
+      test: [ "CMD", "rabbitmq-diagnostics", "-q", "ping" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    networks:
+      - node-app-network
+    restart: on-failure 
+
 volumes:
   mongo-data:
+  redis-data:
+  
 networks:
   node-app-network:
     driver: bridge
