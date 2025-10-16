@@ -1035,3 +1035,104 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/media/get","service":"API-Gateway service","timestamp":"2025-10-16T14:56:39.630Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T14:56:39.630Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from media service: 200","service":"API-Gateway service","timestamp":"2025-10-16T14:56:39.637Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/media/get","service":"API-Gateway service","timestamp":"2025-10-16T15:48:36.248Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T15:48:36.248Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"\tInvalid token!","service":"API-Gateway service","timestamp":"2025-10-16T15:48:36.251Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/auth/login","service":"API-Gateway service","timestamp":"2025-10-16T15:48:44.915Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-16T15:48:44.915Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Identity service: 200","service":"API-Gateway service","timestamp":"2025-10-16T15:48:44.997Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/media/get","service":"API-Gateway service","timestamp":"2025-10-16T15:49:01.480Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T15:49:01.480Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from media service: 200","service":"API-Gateway service","timestamp":"2025-10-16T15:49:01.496Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/media/upload","service":"API-Gateway service","timestamp":"2025-10-16T15:49:28.961Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T15:49:28.962Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from media service: 201","service":"API-Gateway service","timestamp":"2025-10-16T15:49:31.553Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/media/upload","service":"API-Gateway service","timestamp":"2025-10-16T15:49:40.927Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T15:49:40.927Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from media service: 201","service":"API-Gateway service","timestamp":"2025-10-16T15:49:44.643Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/media/upload","service":"API-Gateway service","timestamp":"2025-10-16T15:49:59.832Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T15:49:59.832Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from media service: 201","service":"API-Gateway service","timestamp":"2025-10-16T15:50:04.557Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/media/get","service":"API-Gateway service","timestamp":"2025-10-16T15:50:07.024Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T15:50:07.024Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from media service: 200","service":"API-Gateway service","timestamp":"2025-10-16T15:50:07.031Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/posts/create-post","service":"API-Gateway service","timestamp":"2025-10-16T15:51:27.323Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-16T15:51:27.323Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 201","service":"API-Gateway service","timestamp":"2025-10-16T15:51:27.363Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/posts/create-post","service":"API-Gateway service","timestamp":"2025-10-16T15:55:03.966Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-16T15:55:03.966Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 201","service":"API-Gateway service","timestamp":"2025-10-16T15:55:03.988Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /v1/posts/create-post","service":"API-Gateway service","timestamp":"2025-10-16T15:55:22.468Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-16T15:55:22.468Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 201","service":"API-Gateway service","timestamp":"2025-10-16T15:55:22.475Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-16T15:55:31.811Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-16T15:55:31.811Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"\tInvalid token!","service":"API-Gateway service","timestamp":"2025-10-16T15:55:31.812Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/posts/all-posts","service":"API-Gateway service","timestamp":"2025-10-16T15:55:48.024Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"API-Gateway service","timestamp":"2025-10-16T15:55:48.025Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Post service: 200","service":"API-Gateway service","timestamp":"2025-10-16T15:55:48.055Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search","service":"API-Gateway service","timestamp":"2025-10-16T16:10:43.261Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:10:43.262Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 400","service":"API-Gateway service","timestamp":"2025-10-16T16:10:43.285Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts","service":"API-Gateway service","timestamp":"2025-10-16T16:11:54.053Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:11:54.054Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 400","service":"API-Gateway service","timestamp":"2025-10-16T16:11:54.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts","service":"API-Gateway service","timestamp":"2025-10-16T16:13:16.885Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:13:16.887Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 400","service":"API-Gateway service","timestamp":"2025-10-16T16:13:16.899Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=diamond","service":"API-Gateway service","timestamp":"2025-10-16T16:14:18.874Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:14:18.875Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 400","service":"API-Gateway service","timestamp":"2025-10-16T16:14:18.884Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=diamond","service":"API-Gateway service","timestamp":"2025-10-16T16:14:34.172Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:14:34.173Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"\tAccess attempt without valid token!","service":"API-Gateway service","timestamp":"2025-10-16T16:14:34.173Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /favicon.ico","service":"API-Gateway service","timestamp":"2025-10-16T16:14:34.306Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:14:34.306Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=diamond","service":"API-Gateway service","timestamp":"2025-10-16T16:15:01.609Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:15:01.609Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"\tAccess attempt without valid token!","service":"API-Gateway service","timestamp":"2025-10-16T16:15:01.609Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=diamond","service":"API-Gateway service","timestamp":"2025-10-16T16:15:25.498Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:15:25.499Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 200","service":"API-Gateway service","timestamp":"2025-10-16T16:15:25.542Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=diamon","service":"API-Gateway service","timestamp":"2025-10-16T16:21:10.609Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:21:10.610Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 200","service":"API-Gateway service","timestamp":"2025-10-16T16:21:10.628Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=premium","service":"API-Gateway service","timestamp":"2025-10-16T16:21:22.477Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:21:22.478Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 200","service":"API-Gateway service","timestamp":"2025-10-16T16:21:22.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=Premium","service":"API-Gateway service","timestamp":"2025-10-16T16:21:32.072Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:21:32.072Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 200","service":"API-Gateway service","timestamp":"2025-10-16T16:21:32.090Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=Premium","service":"API-Gateway service","timestamp":"2025-10-16T16:21:35.357Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:21:35.357Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 200","service":"API-Gateway service","timestamp":"2025-10-16T16:21:35.394Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=Premium","service":"API-Gateway service","timestamp":"2025-10-16T16:21:37.752Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:21:37.752Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 200","service":"API-Gateway service","timestamp":"2025-10-16T16:21:37.762Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=Premium","service":"API-Gateway service","timestamp":"2025-10-16T16:21:38.560Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:21:38.560Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 200","service":"API-Gateway service","timestamp":"2025-10-16T16:21:38.565Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=Premium","service":"API-Gateway service","timestamp":"2025-10-16T16:21:39.145Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:21:39.145Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 200","service":"API-Gateway service","timestamp":"2025-10-16T16:21:39.150Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=Premium","service":"API-Gateway service","timestamp":"2025-10-16T16:21:39.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:21:39.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 200","service":"API-Gateway service","timestamp":"2025-10-16T16:21:39.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=Premium","service":"API-Gateway service","timestamp":"2025-10-16T16:21:39.680Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:21:39.680Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 200","service":"API-Gateway service","timestamp":"2025-10-16T16:21:39.690Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=Premium","service":"API-Gateway service","timestamp":"2025-10-16T16:21:40.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:21:40.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 200","service":"API-Gateway service","timestamp":"2025-10-16T16:21:40.382Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=Premium","service":"API-Gateway service","timestamp":"2025-10-16T16:21:41.045Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:21:41.045Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 200","service":"API-Gateway service","timestamp":"2025-10-16T16:21:41.052Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=Premium","service":"API-Gateway service","timestamp":"2025-10-16T16:21:41.556Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:21:41.556Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 200","service":"API-Gateway service","timestamp":"2025-10-16T16:21:41.561Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=Premium","service":"API-Gateway service","timestamp":"2025-10-16T16:23:14.481Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:23:14.488Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 200","service":"API-Gateway service","timestamp":"2025-10-16T16:23:14.534Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /v1/search/posts?query=diamond","service":"API-Gateway service","timestamp":"2025-10-16T16:25:51.248Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"API-Gateway service","timestamp":"2025-10-16T16:25:51.250Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tResponse received from Search service: 200","service":"API-Gateway service","timestamp":"2025-10-16T16:25:51.283Z"}

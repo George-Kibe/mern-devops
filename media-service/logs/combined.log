@@ -207,3 +207,25 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"\tProcessed deletion of media for post id 68f107920d3215108f1b6d2a","service":"Media Micro-service","timestamp":"2025-10-16T14:56:38.938Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/get","service":"Media Micro-service","timestamp":"2025-10-16T14:56:39.633Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T14:56:39.633Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/get","service":"Media Micro-service","timestamp":"2025-10-16T15:49:01.486Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T15:49:01.487Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-16T15:49:28.972Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T15:49:28.974Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tStarting media upload","service":"Media Micro-service","timestamp":"2025-10-16T15:49:28.977Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tFile details: name=premium.png, type=image/png","service":"Media Micro-service","timestamp":"2025-10-16T15:49:28.977Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tUploading to cloudinary starting...","service":"Media Micro-service","timestamp":"2025-10-16T15:49:28.977Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tCloudinary upload successfully. Public Id: - znurecuwers6albrtego","service":"Media Micro-service","timestamp":"2025-10-16T15:49:31.544Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-16T15:49:40.930Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T15:49:40.930Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tStarting media upload","service":"Media Micro-service","timestamp":"2025-10-16T15:49:40.934Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tFile details: name=login.png, type=image/png","service":"Media Micro-service","timestamp":"2025-10-16T15:49:40.934Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tUploading to cloudinary starting...","service":"Media Micro-service","timestamp":"2025-10-16T15:49:40.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tCloudinary upload successfully. Public Id: - ypmapp7pnnk2rbnpw7bq","service":"Media Micro-service","timestamp":"2025-10-16T15:49:44.631Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/media/upload","service":"Media Micro-service","timestamp":"2025-10-16T15:49:59.835Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T15:49:59.835Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tStarting media upload","service":"Media Micro-service","timestamp":"2025-10-16T15:49:59.837Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tFile details: name=Screenshot-1016-125924.png, type=image/png","service":"Media Micro-service","timestamp":"2025-10-16T15:49:59.838Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tUploading to cloudinary starting...","service":"Media Micro-service","timestamp":"2025-10-16T15:49:59.838Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tCloudinary upload successfully. Public Id: - nmwfagiznucconafa0kj","service":"Media Micro-service","timestamp":"2025-10-16T15:50:04.546Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived GET request to /api/media/get","service":"Media Micro-service","timestamp":"2025-10-16T15:50:07.026Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, undefined","service":"Media Micro-service","timestamp":"2025-10-16T15:50:07.026Z"}

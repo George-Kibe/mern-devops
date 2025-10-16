@@ -290,3 +290,6 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-16T14:12:06.858Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-16T14:12:06.858Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-16T14:12:06.865Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tReceived POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-16T15:48:44.921Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tRequest body, [object Object]","service":"identity-service","timestamp":"2025-10-16T15:48:44.922Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\tLogin endpoint hit...","service":"identity-service","timestamp":"2025-10-16T15:48:44.924Z"}

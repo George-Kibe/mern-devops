@@ -1,4 +1,76 @@
 services:
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "3000:3000"
+    env_file: ./api-gateway/.env
+    networks:
+      - node-app-network
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - RABBITMQ_URL=amqp://rabbitmq:5672
+
+  identity-service:
+    build: ./identity-service
+    env_file: ./identity-service/.env
+    networks:
+      - node-app-network
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - RABBITMQ_URL=amqp://rabbitmq:5672
+
+  post-service:
+    build: ./post-service
+    env_file: ./post-service/.env
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    networks:
+      - node-app-network
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - RABBITMQ_URL=amqp://rabbitmq:5672
+
+  media-service:
+    build: ./media-service
+    env_file: ./media-service/.env
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    networks:
+      - node-app-network
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - RABBITMQ_URL=amqp://rabbitmq:5672
+
+  search-service:
+    build: ./search-service
+    env_file: ./search-service/.env
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    networks:
+      - node-app-network
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - RABBITMQ_URL=amqp://rabbitmq:5672
+
   mongo:
     image: mongo:8
     container_name: mongodb-nodems
@@ -27,6 +99,9 @@ services:
     ports:
       - "5672:5672"
       - "15672:15672"
+    # environment:
+    #   RABBITMQ_DEFAULT_USER: ${RABBITMQ_DEFAULT_USER}
+    #   RABBITMQ_DEFAULT_PASS: ${RABBITMQ_DEFAULT_PASS}
     healthcheck:
       test: [ "CMD", "rabbitmq-diagnostics", "-q", "ping" ]
       interval: 30s
@@ -39,7 +114,7 @@ services:
 volumes:
   mongo-data:
   redis-data:
-  
+
 networks:
   node-app-network:
     driver: bridge
