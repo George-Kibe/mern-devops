@@ -1,6 +1,7 @@
 services:
   api-gateway:
     build: ./api-gateway
+    container_name: nodems_api_gateway
     ports:
       - "3000:3000"
     env_file: ./api-gateway/.env
@@ -111,9 +112,40 @@ services:
       - node-app-network
     restart: on-failure 
 
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus_nodems
+    restart: always
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+    networks:
+      - node-app-network
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: nodems_grafana
+    restart: always
+    ports:
+      - "3005:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+    networks:
+      - node-app-network
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_USERS_ALLOW_SIGN_UP=false
+    depends_on:
+      - prometheus
+      
 volumes:
   mongo-data:
   redis-data:
+  grafana_data:
 
 networks:
   node-app-network:

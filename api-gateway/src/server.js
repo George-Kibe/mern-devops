@@ -8,9 +8,42 @@ const logger = require("./utils/logger");
 const proxy = require("express-http-proxy");
 const errorHandler = require("./middlewares/errorHandler");
 const { validateToken } = require("./middlewares/authMiddleware");
+const promClient = require("prom-client");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// Prometheus metrics
+const register = new promClient.Registry();
+promClient.collectDefaultMetrics({ register });
+
+const httpRequestDurationMicroseconds = new promClient.Histogram({
+  name: "http_request_duration_ms",
+  help: "Duration of HTTP requests in ms",
+  labelNames: ["method", "route", "code"],
+  buckets: [0.1, 5, 15, 50, 100, 200, 300, 400, 500],
+});
+const httpRequestsCounter = new promClient.Counter({
+  name: "http_requests_total",
+  help: "Total number of HTTP requests",
+  labelNames: ["method", "route", "status"],
+});
+
+register.registerMetric(httpRequestsCounter);
+register.registerMetric(httpRequestDurationMicroseconds);
+
+//Middleware to track API requests
+app.use((req, res, next) => {
+  res.on("finish", () => {
+    httpRequestsCounter.inc({
+      method: req.method,
+      route: req.path,
+      status: res.statusCode,
+    });
+  });
+
+  next();
+});
 
 const redisClient = new Redis(process.env.REDIS_URL);
 
@@ -19,6 +52,13 @@ app.use(helmet());
 app.use(cors());
 app.use(express.json());
 app.use(errorHandler);
+
+// expose metric endpoint for prometheus
+app.get("/metrics", async (req, res) => {
+  res.set("Content-Type", register.contentType);
+  res.end(await register.metrics());
+});
+
 
 //rate limiting
 const ratelimitOptions = rateLimit({

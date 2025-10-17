@@ -54,7 +54,7 @@ git clone https://<token>@github.com/your-username/your-repo.git
 # 18. Add environment variables for each service inside the VPS in your VS Code project.
 
 # 19. Manually copy your SSH public key to the VPS by generating a new SSH key pair:
-ssh-keygen -t rsa -b 4096 -C "sangammukherjee2022@example.com"
+ssh-keygen -t rsa -b 4096 -C "georgekibew@icloud.com"
 
 # 20. View the content of your SSH private key (path provided for Windows example):
 Get-Content C:\Users\sanga\.ssh\id_rsa
